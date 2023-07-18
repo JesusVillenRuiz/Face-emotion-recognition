@@ -1,0 +1,402 @@
+[0.000000] (-) TimerEvent: {}
+[0.000869] (pers_msgs) JobQueued: {'identifier': 'pers_msgs', 'dependencies': OrderedDict()}
+[0.000960] (fer_pkg) JobQueued: {'identifier': 'fer_pkg', 'dependencies': OrderedDict([('pers_msgs', '/home/giraff-azul2/tfg-villen/tfg_ws/install/pers_msgs')])}
+[0.001002] (pers_msgs) JobStarted: {'identifier': 'pers_msgs'}
+[0.015860] (pers_msgs) JobProgress: {'identifier': 'pers_msgs', 'progress': 'cmake'}
+[0.016844] (pers_msgs) JobProgress: {'identifier': 'pers_msgs', 'progress': 'build'}
+[0.017875] (pers_msgs) Command: {'cmd': ['/home/giraff-azul2/tfg-villen/tfg_venv/bin/cmake', '--build', '/home/giraff-azul2/tfg-villen/tfg_ws/build/pers_msgs', '--', '-j8', '-l8'], 'cwd': '/home/giraff-azul2/tfg-villen/tfg_ws/build/pers_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US'), ('USER', 'giraff-azul2'), ('XDG_SEAT', 'seat0'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/giraff-azul2/tfg-villen/tfg_ws/install/pers_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/giraff-azul2'), ('OLDPWD', '/home/giraff-azul2/tfg-villen/tfg_ws/src'), ('DESKTOP_SESSION', 'xubuntu'), ('PANEL_GDK_CORE_DEVICE_EVENTS', '0'), ('ROS_PYTHON_VERSION', '3'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('PS1', '(tfg_venv) \\[\\e]0;\\u@\\h: \\w\\a\\]${debian_chroot:+($debian_chroot)}\\[\\033[01;32m\\]\\u@\\h\\[\\033[00m\\]:\\[\\033[01;34m\\]\\w\\[\\033[00m\\]\\$'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('QT_QPA_PLATFORMTHEME', 'gtk2'), ('COLCON_PREFIX_PATH', '/home/giraff-azul2/tfg-villen/tfg_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'giraff-azul2'), ('WINDOWID', '79691779'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('CLUTTER_BACKEND', 'x11'), ('TERM', 'xterm-256color'), ('GTK_OVERLAY_SCROLLING', '0'), ('XDG_SESSION_ID', 'c1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/giraff-azul2/tfg-villen/tfg_venv/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/giraffazul2-desktop:@/tmp/.ICE-unix/949,unix/giraffazul2-desktop:/tmp/.ICE-unix/949'), ('GDM_LANG', 'en_US'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session0'), ('XDG_MENU_PREFIX', 'xfce-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0.0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'XFCE'), ('VIRTUAL_ENV_PROMPT', '(tfg_venv)'), ('XDG_SESSION_DESKTOP', 'xubuntu'), ('XAUTHORITY', '/home/giraff-azul2/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '1'), ('XDG_GREETER_DATA_DIR', '/var/lib/lightdm-data/giraff-azul2'), ('AMENT_PREFIX_PATH', '/home/giraff-azul2/tfg-villen/tfg_ws/install/fer_pkg:/home/giraff-azul2/tfg-villen/tfg_ws/install/pers_msgs:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'xubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('VIRTUAL_ENV', '/home/giraff-azul2/tfg-villen/tfg_venv'), ('XDG_VTNR', '7'), ('PWD', '/home/giraff-azul2/tfg-villen/tfg_ws/build/pers_msgs'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-xubuntu:/etc/xdg:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/xubuntu:/usr/share/xfce4:/usr/local/share:/usr/share:/var/lib/snapd/desktop:/usr/share'), ('PYTHONPATH', '/home/giraff-azul2/tfg-villen/tfg_ws/install/fer_pkg/lib/python3.10/site-packages:/home/giraff-azul2/tfg-villen/tfg_ws/install/pers_msgs/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/home/giraff-azul2/tfg-villen/tfg_venv/lib/python3.10/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/giraff-azul2/tfg-villen/tfg_ws/install/pers_msgs:/home/giraff-azul2/tfg-villen/tfg_ws/install/fer_pkg:/opt/ros/humble')]), 'shell': False}
+[0.086005] (pers_msgs) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.4 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.098918] (-) TimerEvent: {}
+[0.199270] (-) TimerEvent: {}
+[0.294769] (pers_msgs) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.299372] (-) TimerEvent: {}
+[0.313082] (pers_msgs) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[0.360721] (pers_msgs) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.364756] (pers_msgs) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.373627] (pers_msgs) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.390559] (pers_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.399466] (-) TimerEvent: {}
+[0.414256] (pers_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.499593] (-) TimerEvent: {}
+[0.599923] (-) TimerEvent: {}
+[0.700261] (-) TimerEvent: {}
+[0.752119] (pers_msgs) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[0.800362] (-) TimerEvent: {}
+[0.900748] (-) TimerEvent: {}
+[1.001065] (-) TimerEvent: {}
+[1.101464] (-) TimerEvent: {}
+[1.201974] (-) TimerEvent: {}
+[1.302372] (-) TimerEvent: {}
+[1.303648] (pers_msgs) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[1.402431] (-) TimerEvent: {}
+[1.502788] (-) TimerEvent: {}
+[1.603167] (-) TimerEvent: {}
+[1.703499] (-) TimerEvent: {}
+[1.803913] (-) TimerEvent: {}
+[1.904260] (-) TimerEvent: {}
+[2.004579] (-) TimerEvent: {}
+[2.066290] (pers_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.104665] (-) TimerEvent: {}
+[2.204955] (-) TimerEvent: {}
+[2.305276] (-) TimerEvent: {}
+[2.364803] (pers_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.395878] (pers_msgs) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[2.405411] (-) TimerEvent: {}
+[2.433201] (pers_msgs) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /home/giraff-azul2/tfg-villen/tfg_venv/bin/python3\n'}
+[2.433554] (pers_msgs) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[2.433747] (pers_msgs) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[2.505525] (-) TimerEvent: {}
+[2.528043] (pers_msgs) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.6 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[2.563691] (pers_msgs) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[2.565605] (pers_msgs) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[2.571779] (pers_msgs) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.605645] (-) TimerEvent: {}
+[2.652445] (pers_msgs) StdoutLine: {'line': b'-- Generating done\n'}
+[2.658067] (pers_msgs) StdoutLine: {'line': b'-- Build files have been written to: /home/giraff-azul2/tfg-villen/tfg_ws/build/pers_msgs\n'}
+[2.687080] (pers_msgs) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[2.698015] (pers_msgs) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[2.705764] (-) TimerEvent: {}
+[2.707763] (pers_msgs) StdoutLine: {'line': b'[  5%] Built target ament_cmake_python_symlink_pers_msgs\n'}
+[2.805863] (-) TimerEvent: {}
+[2.906192] (-) TimerEvent: {}
+[3.006534] (-) TimerEvent: {}
+[3.064030] (pers_msgs) StdoutLine: {'line': b'running egg_info\n'}
+[3.065355] (pers_msgs) StdoutLine: {'line': b'writing pers_msgs.egg-info/PKG-INFO\n'}
+[3.065709] (pers_msgs) StdoutLine: {'line': b'writing dependency_links to pers_msgs.egg-info/dependency_links.txt\n'}
+[3.066025] (pers_msgs) StdoutLine: {'line': b'writing top-level names to pers_msgs.egg-info/top_level.txt\n'}
+[3.069426] (pers_msgs) StdoutLine: {'line': b"reading manifest file 'pers_msgs.egg-info/SOURCES.txt'\n"}
+[3.070391] (pers_msgs) StdoutLine: {'line': b"writing manifest file 'pers_msgs.egg-info/SOURCES.txt'\n"}
+[3.106646] (-) TimerEvent: {}
+[3.106998] (pers_msgs) StdoutLine: {'line': b'[  5%] Built target ament_cmake_python_build_pers_msgs_egg\n'}
+[3.190088] (pers_msgs) StdoutLine: {'line': b'[  5%] Built target pers_msgs__cpp\n'}
+[3.206614] (pers_msgs) StdoutLine: {'line': b'[  7%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[3.207644] (-) TimerEvent: {}
+[3.207956] (pers_msgs) StdoutLine: {'line': b'[ 10%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[3.208213] (pers_msgs) StdoutLine: {'line': b'[ 12%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[3.232276] (pers_msgs) StdoutLine: {'line': b'[ 15%] \x1b[32mBuilding C object CMakeFiles/pers_msgs__rosidl_generator_c.dir/rosidl_generator_c/pers_msgs/msg/detail/facemsg__functions.c.o\x1b[0m\n'}
+[3.237080] (pers_msgs) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding C object CMakeFiles/pers_msgs__rosidl_generator_c.dir/rosidl_generator_c/pers_msgs/msg/detail/new_usermsg__functions.c.o\x1b[0m\n'}
+[3.307782] (-) TimerEvent: {}
+[3.408206] (-) TimerEvent: {}
+[3.479173] (pers_msgs) StdoutLine: {'line': b'[ 20%] \x1b[32m\x1b[1mLinking C shared library libpers_msgs__rosidl_generator_c.so\x1b[0m\n'}
+[3.508322] (-) TimerEvent: {}
+[3.571706] (pers_msgs) StdoutLine: {'line': b'[ 20%] Built target pers_msgs__rosidl_generator_c\n'}
+[3.590826] (pers_msgs) StdoutLine: {'line': b'[ 23%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[3.595222] (pers_msgs) StdoutLine: {'line': b'[ 25%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[3.597026] (pers_msgs) StdoutLine: {'line': b'[ 28%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[3.608668] (-) TimerEvent: {}
+[3.710049] (-) TimerEvent: {}
+[3.727256] (pers_msgs) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/pers_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/pers_msgs/msg/new_usermsg__type_support.cpp.o\x1b[0m\n'}
+[3.730481] (pers_msgs) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/pers_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/pers_msgs/msg/facemsg__type_support.cpp.o\x1b[0m\n'}
+[3.810147] (-) TimerEvent: {}
+[3.865628] (pers_msgs) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/pers_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/pers_msgs/msg/detail/facemsg__type_support.cpp.o\x1b[0m\n'}
+[3.871180] (pers_msgs) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/pers_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/pers_msgs/msg/detail/new_usermsg__type_support.cpp.o\x1b[0m\n'}
+[3.910245] (-) TimerEvent: {}
+[3.984488] (pers_msgs) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/pers_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/pers_msgs/msg/detail/dds_fastrtps/facemsg__type_support.cpp.o\x1b[0m\n'}
+[4.020697] (-) TimerEvent: {}
+[4.123083] (-) TimerEvent: {}
+[4.229801] (-) TimerEvent: {}
+[4.330214] (-) TimerEvent: {}
+[4.436319] (-) TimerEvent: {}
+[4.537282] (-) TimerEvent: {}
+[4.636358] (pers_msgs) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding CXX object CMakeFiles/pers_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/pers_msgs/msg/facemsg__type_support.cpp.o\x1b[0m\n'}
+[4.637381] (-) TimerEvent: {}
+[4.737982] (-) TimerEvent: {}
+[4.769180] (pers_msgs) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding C object CMakeFiles/pers_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/pers_msgs/msg/detail/facemsg__type_support.c.o\x1b[0m\n'}
+[4.838378] (-) TimerEvent: {}
+[4.840089] (pers_msgs) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object CMakeFiles/pers_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/pers_msgs/msg/detail/facemsg__type_support_c.cpp.o\x1b[0m\n'}
+[4.863213] (pers_msgs) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding CXX object CMakeFiles/pers_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/pers_msgs/msg/new_usermsg__type_support.cpp.o\x1b[0m\n'}
+[4.955657] (-) TimerEvent: {}
+[5.021632] (pers_msgs) StdoutLine: {'line': b'[ 53%] \x1b[32m\x1b[1mLinking CXX shared library libpers_msgs__rosidl_typesupport_c.so\x1b[0m\n'}
+[5.055786] (-) TimerEvent: {}
+[5.064820] (pers_msgs) StdoutLine: {'line': b'[ 56%] \x1b[32m\x1b[1mLinking CXX shared library libpers_msgs__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[5.076027] (pers_msgs) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding CXX object CMakeFiles/pers_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/pers_msgs/msg/detail/dds_fastrtps/new_usermsg__type_support.cpp.o\x1b[0m\n'}
+[5.150603] (pers_msgs) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding C object CMakeFiles/pers_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/pers_msgs/msg/detail/new_usermsg__type_support.c.o\x1b[0m\n'}
+[5.156348] (-) TimerEvent: {}
+[5.246153] (pers_msgs) StdoutLine: {'line': b'[ 61%] Built target pers_msgs__rosidl_typesupport_c\n'}
+[5.265592] (pers_msgs) StdoutLine: {'line': b'[ 61%] Built target pers_msgs__rosidl_typesupport_cpp\n'}
+[5.266122] (-) TimerEvent: {}
+[5.290429] (pers_msgs) StdoutLine: {'line': b'[ 64%] \x1b[32mBuilding CXX object CMakeFiles/pers_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/pers_msgs/msg/detail/new_usermsg__type_support_c.cpp.o\x1b[0m\n'}
+[5.344493] (pers_msgs) StdoutLine: {'line': b'[ 66%] \x1b[32m\x1b[1mLinking C shared library libpers_msgs__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[5.366846] (-) TimerEvent: {}
+[5.468469] (-) TimerEvent: {}
+[5.484073] (pers_msgs) StdoutLine: {'line': b'[ 66%] Built target pers_msgs__rosidl_typesupport_introspection_c\n'}
+[5.571793] (-) TimerEvent: {}
+[5.672769] (-) TimerEvent: {}
+[5.773611] (-) TimerEvent: {}
+[5.874178] (-) TimerEvent: {}
+[5.975084] (-) TimerEvent: {}
+[6.075681] (-) TimerEvent: {}
+[6.154080] (pers_msgs) StdoutLine: {'line': b'[ 69%] \x1b[32m\x1b[1mLinking CXX shared library libpers_msgs__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[6.177188] (-) TimerEvent: {}
+[6.277707] (-) TimerEvent: {}
+[6.379935] (-) TimerEvent: {}
+[6.426741] (pers_msgs) StdoutLine: {'line': b'[ 69%] Built target pers_msgs__rosidl_typesupport_introspection_cpp\n'}
+[6.480262] (-) TimerEvent: {}
+[6.524757] (pers_msgs) StdoutLine: {'line': b'[ 71%] \x1b[32m\x1b[1mLinking CXX shared library libpers_msgs__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[6.549603] (pers_msgs) StdoutLine: {'line': b'[ 74%] \x1b[32m\x1b[1mLinking CXX shared library libpers_msgs__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[6.580423] (-) TimerEvent: {}
+[6.681050] (-) TimerEvent: {}
+[6.771175] (pers_msgs) StdoutLine: {'line': b'[ 74%] Built target pers_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[6.781163] (-) TimerEvent: {}
+[6.781620] (pers_msgs) StdoutLine: {'line': b'[ 74%] Built target pers_msgs__rosidl_typesupport_fastrtps_c\n'}
+[6.807172] (pers_msgs) StdoutLine: {'line': b'[ 74%] Built target pers_msgs\n'}
+[6.851372] (pers_msgs) StdoutLine: {'line': b'[ 76%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[6.881283] (-) TimerEvent: {}
+[6.981773] (-) TimerEvent: {}
+[7.082157] (-) TimerEvent: {}
+[7.182514] (-) TimerEvent: {}
+[7.282897] (-) TimerEvent: {}
+[7.383279] (-) TimerEvent: {}
+[7.483636] (-) TimerEvent: {}
+[7.584087] (-) TimerEvent: {}
+[7.684500] (-) TimerEvent: {}
+[7.706109] (pers_msgs) StdoutLine: {'line': b'[ 76%] Built target pers_msgs__py\n'}
+[7.751266] (pers_msgs) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding C object CMakeFiles/pers_msgs__rosidl_generator_py.dir/rosidl_generator_py/pers_msgs/msg/_facemsg_s.c.o\x1b[0m\n'}
+[7.751710] (pers_msgs) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding C object CMakeFiles/pers_msgs__rosidl_generator_py.dir/rosidl_generator_py/pers_msgs/msg/_new_usermsg_s.c.o\x1b[0m\n'}
+[7.784619] (-) TimerEvent: {}
+[7.885072] (-) TimerEvent: {}
+[7.985641] (-) TimerEvent: {}
+[8.055333] (pers_msgs) StdoutLine: {'line': b'[ 84%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/pers_msgs/libpers_msgs__rosidl_generator_py.so\x1b[0m\n'}
+[8.085769] (-) TimerEvent: {}
+[8.156064] (pers_msgs) StdoutLine: {'line': b'[ 84%] Built target pers_msgs__rosidl_generator_py\n'}
+[8.183719] (pers_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target pers_msgs__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[8.184231] (pers_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target pers_msgs__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[8.187625] (pers_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target pers_msgs__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[8.187966] (-) TimerEvent: {}
+[8.208540] (pers_msgs) StdoutLine: {'line': b'[ 89%] \x1b[32mBuilding C object CMakeFiles/pers_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/pers_msgs/_pers_msgs_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[8.209052] (pers_msgs) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/pers_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/pers_msgs/_pers_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[8.209246] (pers_msgs) StdoutLine: {'line': b'[ 89%] \x1b[32mBuilding C object CMakeFiles/pers_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/pers_msgs/_pers_msgs_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[8.288329] (-) TimerEvent: {}
+[8.388747] (-) TimerEvent: {}
+[8.441046] (pers_msgs) StdoutLine: {'line': b'[ 94%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/pers_msgs/pers_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[8.450086] (pers_msgs) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/pers_msgs/pers_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[8.477318] (pers_msgs) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/pers_msgs/pers_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[8.489044] (-) TimerEvent: {}
+[8.510099] (pers_msgs) StdoutLine: {'line': b'[100%] Built target pers_msgs__rosidl_typesupport_fastrtps_c__pyext\n'}
+[8.527979] (pers_msgs) StdoutLine: {'line': b'[100%] Built target pers_msgs__rosidl_typesupport_c__pyext\n'}
+[8.561755] (pers_msgs) StdoutLine: {'line': b'[100%] Built target pers_msgs__rosidl_typesupport_introspection_c__pyext\n'}
+[8.589190] (-) TimerEvent: {}
+[8.593244] (pers_msgs) CommandEnded: {'returncode': 0}
+[8.689362] (-) TimerEvent: {}
+[8.740231] (pers_msgs) JobProgress: {'identifier': 'pers_msgs', 'progress': 'install'}
+[8.789488] (-) TimerEvent: {}
+[8.810470] (pers_msgs) Command: {'cmd': ['/home/giraff-azul2/tfg-villen/tfg_venv/bin/cmake', '--install', '/home/giraff-azul2/tfg-villen/tfg_ws/build/pers_msgs'], 'cwd': '/home/giraff-azul2/tfg-villen/tfg_ws/build/pers_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US'), ('USER', 'giraff-azul2'), ('XDG_SEAT', 'seat0'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/giraff-azul2/tfg-villen/tfg_ws/install/pers_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/giraff-azul2'), ('OLDPWD', '/home/giraff-azul2/tfg-villen/tfg_ws/src'), ('DESKTOP_SESSION', 'xubuntu'), ('PANEL_GDK_CORE_DEVICE_EVENTS', '0'), ('ROS_PYTHON_VERSION', '3'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('PS1', '(tfg_venv) \\[\\e]0;\\u@\\h: \\w\\a\\]${debian_chroot:+($debian_chroot)}\\[\\033[01;32m\\]\\u@\\h\\[\\033[00m\\]:\\[\\033[01;34m\\]\\w\\[\\033[00m\\]\\$'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('QT_QPA_PLATFORMTHEME', 'gtk2'), ('COLCON_PREFIX_PATH', '/home/giraff-azul2/tfg-villen/tfg_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'giraff-azul2'), ('WINDOWID', '79691779'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('CLUTTER_BACKEND', 'x11'), ('TERM', 'xterm-256color'), ('GTK_OVERLAY_SCROLLING', '0'), ('XDG_SESSION_ID', 'c1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/giraff-azul2/tfg-villen/tfg_venv/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/giraffazul2-desktop:@/tmp/.ICE-unix/949,unix/giraffazul2-desktop:/tmp/.ICE-unix/949'), ('GDM_LANG', 'en_US'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session0'), ('XDG_MENU_PREFIX', 'xfce-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0.0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'XFCE'), ('VIRTUAL_ENV_PROMPT', '(tfg_venv)'), ('XDG_SESSION_DESKTOP', 'xubuntu'), ('XAUTHORITY', '/home/giraff-azul2/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '1'), ('XDG_GREETER_DATA_DIR', '/var/lib/lightdm-data/giraff-azul2'), ('AMENT_PREFIX_PATH', '/home/giraff-azul2/tfg-villen/tfg_ws/install/fer_pkg:/home/giraff-azul2/tfg-villen/tfg_ws/install/pers_msgs:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'xubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('VIRTUAL_ENV', '/home/giraff-azul2/tfg-villen/tfg_venv'), ('XDG_VTNR', '7'), ('PWD', '/home/giraff-azul2/tfg-villen/tfg_ws/build/pers_msgs'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-xubuntu:/etc/xdg:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/xubuntu:/usr/share/xfce4:/usr/local/share:/usr/share:/var/lib/snapd/desktop:/usr/share'), ('PYTHONPATH', '/home/giraff-azul2/tfg-villen/tfg_ws/install/fer_pkg/lib/python3.10/site-packages:/home/giraff-azul2/tfg-villen/tfg_ws/install/pers_msgs/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/home/giraff-azul2/tfg-villen/tfg_venv/lib/python3.10/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/giraff-azul2/tfg-villen/tfg_ws/install/pers_msgs:/home/giraff-azul2/tfg-villen/tfg_ws/install/fer_pkg:/opt/ros/humble')]), 'shell': False}
+[8.873671] (pers_msgs) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[8.875488] (pers_msgs) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[8.875970] (pers_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/giraff-azul2/tfg-villen/tfg_ws/install/pers_msgs/share/ament_index/resource_index/rosidl_interfaces/pers_msgs\n'}
+[8.878501] (pers_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/giraff-azul2/tfg-villen/tfg_ws/install/pers_msgs/include/pers_msgs/pers_msgs/msg/caramsg.h\n'}
+[8.878820] (pers_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/giraff-azul2/tfg-villen/tfg_ws/install/pers_msgs/include/pers_msgs/pers_msgs/msg/detail/caramsg__functions.h\n'}
+[8.879045] (pers_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/giraff-azul2/tfg-villen/tfg_ws/install/pers_msgs/include/pers_msgs/pers_msgs/msg/detail/caramsg__struct.h\n'}
+[8.879239] (pers_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/giraff-azul2/tfg-villen/tfg_ws/install/pers_msgs/include/pers_msgs/pers_msgs/msg/detail/caramsg__type_support.h\n'}
+[8.879411] (pers_msgs) StdoutLine: {'line': b'-- Symlinking: /home/giraff-azul2/tfg-villen/tfg_ws/install/pers_msgs/include/pers_msgs/pers_msgs/msg/detail/facemsg__functions.h\n'}
+[8.889188] (pers_msgs) StdoutLine: {'line': b'-- Symlinking: /home/giraff-azul2/tfg-villen/tfg_ws/install/pers_msgs/include/pers_msgs/pers_msgs/msg/detail/facemsg__struct.h\n'}
+[8.889495] (-) TimerEvent: {}
+[8.901003] (pers_msgs) StdoutLine: {'line': b'-- Symlinking: /home/giraff-azul2/tfg-villen/tfg_ws/install/pers_msgs/include/pers_msgs/pers_msgs/msg/detail/facemsg__type_support.h\n'}
+[8.910466] (pers_msgs) StdoutLine: {'line': b'-- Symlinking: /home/giraff-azul2/tfg-villen/tfg_ws/install/pers_msgs/include/pers_msgs/pers_msgs/msg/detail/new_usermsg__functions.h\n'}
+[8.936287] (pers_msgs) StdoutLine: {'line': b'-- Symlinking: /home/giraff-azul2/tfg-villen/tfg_ws/install/pers_msgs/include/pers_msgs/pers_msgs/msg/detail/new_usermsg__struct.h\n'}
+[8.949421] (pers_msgs) StdoutLine: {'line': b'-- Symlinking: /home/giraff-azul2/tfg-villen/tfg_ws/install/pers_msgs/include/pers_msgs/pers_msgs/msg/detail/new_usermsg__type_support.h\n'}
+[8.959630] (pers_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/giraff-azul2/tfg-villen/tfg_ws/install/pers_msgs/include/pers_msgs/pers_msgs/msg/detail/nuevo_usuariomsg__functions.h\n'}
+[8.959990] (pers_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/giraff-azul2/tfg-villen/tfg_ws/install/pers_msgs/include/pers_msgs/pers_msgs/msg/detail/nuevo_usuariomsg__struct.h\n'}
+[8.960237] (pers_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/giraff-azul2/tfg-villen/tfg_ws/install/pers_msgs/include/pers_msgs/pers_msgs/msg/detail/nuevo_usuariomsg__type_support.h\n'}
+[8.960412] (pers_msgs) StdoutLine: {'line': b'-- Symlinking: /home/giraff-azul2/tfg-villen/tfg_ws/install/pers_msgs/include/pers_msgs/pers_msgs/msg/facemsg.h\n'}
+[8.978345] (pers_msgs) StdoutLine: {'line': b'-- Symlinking: /home/giraff-azul2/tfg-villen/tfg_ws/install/pers_msgs/include/pers_msgs/pers_msgs/msg/new_usermsg.h\n'}
+[8.987752] (pers_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/giraff-azul2/tfg-villen/tfg_ws/install/pers_msgs/include/pers_msgs/pers_msgs/msg/nuevo_usuariomsg.h\n'}
+[8.988071] (pers_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/giraff-azul2/tfg-villen/tfg_ws/install/pers_msgs/include/pers_msgs/pers_msgs/msg/rosidl_generator_c__visibility_control.h\n'}
+[8.988388] (pers_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/giraff-azul2/tfg-villen/tfg_ws/install/pers_msgs/share/pers_msgs/environment/library_path.sh\n'}
+[8.988779] (pers_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/giraff-azul2/tfg-villen/tfg_ws/install/pers_msgs/share/pers_msgs/environment/library_path.dsv\n'}
+[8.989565] (-) TimerEvent: {}
+[8.990039] (pers_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/giraff-azul2/tfg-villen/tfg_ws/install/pers_msgs/include/pers_msgs/pers_msgs/msg/detail/caramsg__rosidl_typesupport_fastrtps_c.h\n'}
+[8.990226] (pers_msgs) StdoutLine: {'line': b'-- Symlinking: /home/giraff-azul2/tfg-villen/tfg_ws/install/pers_msgs/include/pers_msgs/pers_msgs/msg/detail/facemsg__rosidl_typesupport_fastrtps_c.h\n'}
+[9.001247] (pers_msgs) StdoutLine: {'line': b'-- Symlinking: /home/giraff-azul2/tfg-villen/tfg_ws/install/pers_msgs/include/pers_msgs/pers_msgs/msg/detail/new_usermsg__rosidl_typesupport_fastrtps_c.h\n'}
+[9.020048] (pers_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/giraff-azul2/tfg-villen/tfg_ws/install/pers_msgs/include/pers_msgs/pers_msgs/msg/detail/nuevo_usuariomsg__rosidl_typesupport_fastrtps_c.h\n'}
+[9.021275] (pers_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/giraff-azul2/tfg-villen/tfg_ws/install/pers_msgs/include/pers_msgs/pers_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[9.022358] (pers_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/giraff-azul2/tfg-villen/tfg_ws/install/pers_msgs/include/pers_msgs/pers_msgs/msg/caramsg.hpp\n'}
+[9.023140] (pers_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/giraff-azul2/tfg-villen/tfg_ws/install/pers_msgs/include/pers_msgs/pers_msgs/msg/detail/caramsg__builder.hpp\n'}
+[9.023405] (pers_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/giraff-azul2/tfg-villen/tfg_ws/install/pers_msgs/include/pers_msgs/pers_msgs/msg/detail/caramsg__struct.hpp\n'}
+[9.023680] (pers_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/giraff-azul2/tfg-villen/tfg_ws/install/pers_msgs/include/pers_msgs/pers_msgs/msg/detail/caramsg__traits.hpp\n'}
+[9.023870] (pers_msgs) StdoutLine: {'line': b'-- Symlinking: /home/giraff-azul2/tfg-villen/tfg_ws/install/pers_msgs/include/pers_msgs/pers_msgs/msg/detail/facemsg__builder.hpp\n'}
+[9.040066] (pers_msgs) StdoutLine: {'line': b'-- Symlinking: /home/giraff-azul2/tfg-villen/tfg_ws/install/pers_msgs/include/pers_msgs/pers_msgs/msg/detail/facemsg__struct.hpp\n'}
+[9.056442] (pers_msgs) StdoutLine: {'line': b'-- Symlinking: /home/giraff-azul2/tfg-villen/tfg_ws/install/pers_msgs/include/pers_msgs/pers_msgs/msg/detail/facemsg__traits.hpp\n'}
+[9.071760] (pers_msgs) StdoutLine: {'line': b'-- Symlinking: /home/giraff-azul2/tfg-villen/tfg_ws/install/pers_msgs/include/pers_msgs/pers_msgs/msg/detail/new_usermsg__builder.hpp\n'}
+[9.082687] (pers_msgs) StdoutLine: {'line': b'-- Symlinking: /home/giraff-azul2/tfg-villen/tfg_ws/install/pers_msgs/include/pers_msgs/pers_msgs/msg/detail/new_usermsg__struct.hpp\n'}
+[9.089739] (-) TimerEvent: {}
+[9.094399] (pers_msgs) StdoutLine: {'line': b'-- Symlinking: /home/giraff-azul2/tfg-villen/tfg_ws/install/pers_msgs/include/pers_msgs/pers_msgs/msg/detail/new_usermsg__traits.hpp\n'}
+[9.104701] (pers_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/giraff-azul2/tfg-villen/tfg_ws/install/pers_msgs/include/pers_msgs/pers_msgs/msg/detail/nuevo_usuariomsg__builder.hpp\n'}
+[9.105035] (pers_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/giraff-azul2/tfg-villen/tfg_ws/install/pers_msgs/include/pers_msgs/pers_msgs/msg/detail/nuevo_usuariomsg__struct.hpp\n'}
+[9.105285] (pers_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/giraff-azul2/tfg-villen/tfg_ws/install/pers_msgs/include/pers_msgs/pers_msgs/msg/detail/nuevo_usuariomsg__traits.hpp\n'}
+[9.105458] (pers_msgs) StdoutLine: {'line': b'-- Symlinking: /home/giraff-azul2/tfg-villen/tfg_ws/install/pers_msgs/include/pers_msgs/pers_msgs/msg/facemsg.hpp\n'}
+[9.119197] (pers_msgs) StdoutLine: {'line': b'-- Symlinking: /home/giraff-azul2/tfg-villen/tfg_ws/install/pers_msgs/include/pers_msgs/pers_msgs/msg/new_usermsg.hpp\n'}
+[9.130039] (pers_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/giraff-azul2/tfg-villen/tfg_ws/install/pers_msgs/include/pers_msgs/pers_msgs/msg/nuevo_usuariomsg.hpp\n'}
+[9.131304] (pers_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/giraff-azul2/tfg-villen/tfg_ws/install/pers_msgs/include/pers_msgs/pers_msgs/msg/detail/caramsg__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[9.131811] (pers_msgs) StdoutLine: {'line': b'-- Symlinking: /home/giraff-azul2/tfg-villen/tfg_ws/install/pers_msgs/include/pers_msgs/pers_msgs/msg/detail/facemsg__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[9.148502] (pers_msgs) StdoutLine: {'line': b'-- Symlinking: /home/giraff-azul2/tfg-villen/tfg_ws/install/pers_msgs/include/pers_msgs/pers_msgs/msg/detail/new_usermsg__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[9.160221] (pers_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/giraff-azul2/tfg-villen/tfg_ws/install/pers_msgs/include/pers_msgs/pers_msgs/msg/detail/nuevo_usuariomsg__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[9.160594] (pers_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/giraff-azul2/tfg-villen/tfg_ws/install/pers_msgs/include/pers_msgs/pers_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[9.160978] (pers_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/giraff-azul2/tfg-villen/tfg_ws/install/pers_msgs/include/pers_msgs/pers_msgs/msg/detail/caramsg__rosidl_typesupport_introspection_c.h\n'}
+[9.161204] (pers_msgs) StdoutLine: {'line': b'-- Symlinking: /home/giraff-azul2/tfg-villen/tfg_ws/install/pers_msgs/include/pers_msgs/pers_msgs/msg/detail/facemsg__rosidl_typesupport_introspection_c.h\n'}
+[9.174048] (pers_msgs) StdoutLine: {'line': b'-- Symlinking: /home/giraff-azul2/tfg-villen/tfg_ws/install/pers_msgs/include/pers_msgs/pers_msgs/msg/detail/new_usermsg__rosidl_typesupport_introspection_c.h\n'}
+[9.186923] (pers_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/giraff-azul2/tfg-villen/tfg_ws/install/pers_msgs/include/pers_msgs/pers_msgs/msg/detail/nuevo_usuariomsg__rosidl_typesupport_introspection_c.h\n'}
+[9.187212] (pers_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/giraff-azul2/tfg-villen/tfg_ws/install/pers_msgs/include/pers_msgs/pers_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[9.188115] (pers_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/giraff-azul2/tfg-villen/tfg_ws/install/pers_msgs/include/pers_msgs/pers_msgs/msg/detail/caramsg__rosidl_typesupport_introspection_cpp.hpp\n'}
+[9.188430] (pers_msgs) StdoutLine: {'line': b'-- Symlinking: /home/giraff-azul2/tfg-villen/tfg_ws/install/pers_msgs/include/pers_msgs/pers_msgs/msg/detail/facemsg__rosidl_typesupport_introspection_cpp.hpp\n'}
+[9.189801] (-) TimerEvent: {}
+[9.198951] (pers_msgs) StdoutLine: {'line': b'-- Symlinking: /home/giraff-azul2/tfg-villen/tfg_ws/install/pers_msgs/include/pers_msgs/pers_msgs/msg/detail/new_usermsg__rosidl_typesupport_introspection_cpp.hpp\n'}
+[9.209570] (pers_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/giraff-azul2/tfg-villen/tfg_ws/install/pers_msgs/include/pers_msgs/pers_msgs/msg/detail/nuevo_usuariomsg__rosidl_typesupport_introspection_cpp.hpp\n'}
+[9.209943] (pers_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/giraff-azul2/tfg-villen/tfg_ws/install/pers_msgs/share/pers_msgs/environment/pythonpath.sh\n'}
+[9.210163] (pers_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/giraff-azul2/tfg-villen/tfg_ws/install/pers_msgs/share/pers_msgs/environment/pythonpath.dsv\n'}
+[9.210529] (pers_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/giraff-azul2/tfg-villen/tfg_ws/install/pers_msgs/lib/python3.10/site-packages/pers_msgs-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[9.210764] (pers_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/giraff-azul2/tfg-villen/tfg_ws/install/pers_msgs/lib/python3.10/site-packages/pers_msgs-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[9.210972] (pers_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/giraff-azul2/tfg-villen/tfg_ws/install/pers_msgs/lib/python3.10/site-packages/pers_msgs-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[9.211183] (pers_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/giraff-azul2/tfg-villen/tfg_ws/install/pers_msgs/lib/python3.10/site-packages/pers_msgs-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[9.213536] (pers_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/giraff-azul2/tfg-villen/tfg_ws/install/pers_msgs/lib/python3.10/site-packages/pers_msgs/__init__.py\n'}
+[9.214425] (pers_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/giraff-azul2/tfg-villen/tfg_ws/install/pers_msgs/lib/python3.10/site-packages/pers_msgs/_pers_msgs_s.ep.rosidl_typesupport_c.c\n'}
+[9.214674] (pers_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/giraff-azul2/tfg-villen/tfg_ws/install/pers_msgs/lib/python3.10/site-packages/pers_msgs/_pers_msgs_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[9.214880] (pers_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/giraff-azul2/tfg-villen/tfg_ws/install/pers_msgs/lib/python3.10/site-packages/pers_msgs/_pers_msgs_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[9.215144] (pers_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/giraff-azul2/tfg-villen/tfg_ws/install/pers_msgs/lib/python3.10/site-packages/pers_msgs/libpers_msgs__rosidl_generator_py.so\n'}
+[9.215358] (pers_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/giraff-azul2/tfg-villen/tfg_ws/install/pers_msgs/lib/python3.10/site-packages/pers_msgs/msg/__init__.py\n'}
+[9.215586] (pers_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/giraff-azul2/tfg-villen/tfg_ws/install/pers_msgs/lib/python3.10/site-packages/pers_msgs/msg/_caramsg.py\n'}
+[9.215776] (pers_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/giraff-azul2/tfg-villen/tfg_ws/install/pers_msgs/lib/python3.10/site-packages/pers_msgs/msg/_caramsg_s.c\n'}
+[9.215963] (pers_msgs) StdoutLine: {'line': b'-- Symlinking: /home/giraff-azul2/tfg-villen/tfg_ws/install/pers_msgs/lib/python3.10/site-packages/pers_msgs/msg/_facemsg.py\n'}
+[9.234087] (pers_msgs) StdoutLine: {'line': b'-- Symlinking: /home/giraff-azul2/tfg-villen/tfg_ws/install/pers_msgs/lib/python3.10/site-packages/pers_msgs/msg/_facemsg_s.c\n'}
+[9.249075] (pers_msgs) StdoutLine: {'line': b'-- Symlinking: /home/giraff-azul2/tfg-villen/tfg_ws/install/pers_msgs/lib/python3.10/site-packages/pers_msgs/msg/_new_usermsg.py\n'}
+[9.258514] (pers_msgs) StdoutLine: {'line': b'-- Symlinking: /home/giraff-azul2/tfg-villen/tfg_ws/install/pers_msgs/lib/python3.10/site-packages/pers_msgs/msg/_new_usermsg_s.c\n'}
+[9.276174] (pers_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/giraff-azul2/tfg-villen/tfg_ws/install/pers_msgs/lib/python3.10/site-packages/pers_msgs/msg/_nuevo_usuariomsg.py\n'}
+[9.277000] (pers_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/giraff-azul2/tfg-villen/tfg_ws/install/pers_msgs/lib/python3.10/site-packages/pers_msgs/msg/_nuevo_usuariomsg_s.c\n'}
+[9.277301] (pers_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/giraff-azul2/tfg-villen/tfg_ws/install/pers_msgs/lib/python3.10/site-packages/pers_msgs/pers_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[9.277456] (pers_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/giraff-azul2/tfg-villen/tfg_ws/install/pers_msgs/lib/python3.10/site-packages/pers_msgs/pers_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[9.277579] (pers_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/giraff-azul2/tfg-villen/tfg_ws/install/pers_msgs/lib/python3.10/site-packages/pers_msgs/pers_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[9.277755] (pers_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/giraff-azul2/tfg-villen/tfg_ws/install/pers_msgs/lib/python3.10/site-packages/pers_msgs/pers_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[9.278255] (pers_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/giraff-azul2/tfg-villen/tfg_ws/install/pers_msgs/lib/python3.10/site-packages/pers_msgs/pers_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[9.278630] (pers_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/giraff-azul2/tfg-villen/tfg_ws/install/pers_msgs/lib/python3.10/site-packages/pers_msgs/pers_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[9.278901] (pers_msgs) StdoutLine: {'line': b'-- Symlinking: /home/giraff-azul2/tfg-villen/tfg_ws/install/pers_msgs/share/pers_msgs/msg/Facemsg.idl\n'}
+[9.288304] (pers_msgs) StdoutLine: {'line': b'-- Symlinking: /home/giraff-azul2/tfg-villen/tfg_ws/install/pers_msgs/share/pers_msgs/msg/NewUsermsg.idl\n'}
+[9.289894] (-) TimerEvent: {}
+[9.298448] (pers_msgs) StdoutLine: {'line': b'-- Symlinking: /home/giraff-azul2/tfg-villen/tfg_ws/install/pers_msgs/share/pers_msgs/msg/Facemsg.msg\n'}
+[9.307830] (pers_msgs) StdoutLine: {'line': b'-- Symlinking: /home/giraff-azul2/tfg-villen/tfg_ws/install/pers_msgs/share/pers_msgs/msg/NewUsermsg.msg\n'}
+[9.326145] (pers_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/giraff-azul2/tfg-villen/tfg_ws/install/pers_msgs/share/ament_index/resource_index/package_run_dependencies/pers_msgs\n'}
+[9.326898] (pers_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/giraff-azul2/tfg-villen/tfg_ws/install/pers_msgs/share/ament_index/resource_index/parent_prefix_path/pers_msgs\n'}
+[9.327155] (pers_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/giraff-azul2/tfg-villen/tfg_ws/install/pers_msgs/share/pers_msgs/environment/ament_prefix_path.sh\n'}
+[9.327331] (pers_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/giraff-azul2/tfg-villen/tfg_ws/install/pers_msgs/share/pers_msgs/environment/ament_prefix_path.dsv\n'}
+[9.327919] (pers_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/giraff-azul2/tfg-villen/tfg_ws/install/pers_msgs/share/pers_msgs/environment/path.sh\n'}
+[9.328245] (pers_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/giraff-azul2/tfg-villen/tfg_ws/install/pers_msgs/share/pers_msgs/environment/path.dsv\n'}
+[9.328642] (pers_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/giraff-azul2/tfg-villen/tfg_ws/install/pers_msgs/share/pers_msgs/local_setup.bash\n'}
+[9.329059] (pers_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/giraff-azul2/tfg-villen/tfg_ws/install/pers_msgs/share/pers_msgs/local_setup.sh\n'}
+[9.329412] (pers_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/giraff-azul2/tfg-villen/tfg_ws/install/pers_msgs/share/pers_msgs/local_setup.zsh\n'}
+[9.329667] (pers_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/giraff-azul2/tfg-villen/tfg_ws/install/pers_msgs/share/pers_msgs/local_setup.dsv\n'}
+[9.329864] (pers_msgs) StdoutLine: {'line': b'-- Symlinking: /home/giraff-azul2/tfg-villen/tfg_ws/install/pers_msgs/share/pers_msgs/package.dsv\n'}
+[9.343653] (pers_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/giraff-azul2/tfg-villen/tfg_ws/install/pers_msgs/share/ament_index/resource_index/packages/pers_msgs\n'}
+[9.344024] (pers_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/giraff-azul2/tfg-villen/tfg_ws/install/pers_msgs/share/pers_msgs/cmake/rosidl_cmake-extras.cmake\n'}
+[9.344272] (pers_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/giraff-azul2/tfg-villen/tfg_ws/install/pers_msgs/share/pers_msgs/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[9.344570] (pers_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/giraff-azul2/tfg-villen/tfg_ws/install/pers_msgs/share/pers_msgs/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[9.344839] (pers_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/giraff-azul2/tfg-villen/tfg_ws/install/pers_msgs/share/pers_msgs/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[9.345121] (pers_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/giraff-azul2/tfg-villen/tfg_ws/install/pers_msgs/share/pers_msgs/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[9.345386] (pers_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/giraff-azul2/tfg-villen/tfg_ws/install/pers_msgs/share/pers_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[9.345699] (pers_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/giraff-azul2/tfg-villen/tfg_ws/install/pers_msgs/share/pers_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[9.345995] (pers_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/giraff-azul2/tfg-villen/tfg_ws/install/pers_msgs/share/pers_msgs/cmake/pers_msgsConfig.cmake\n'}
+[9.346249] (pers_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/giraff-azul2/tfg-villen/tfg_ws/install/pers_msgs/share/pers_msgs/cmake/pers_msgsConfig-version.cmake\n'}
+[9.346490] (pers_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/giraff-azul2/tfg-villen/tfg_ws/install/pers_msgs/share/pers_msgs/package.xml\n'}
+[9.347984] (pers_msgs) StdoutLine: {'line': b'-- Installing: /home/giraff-azul2/tfg-villen/tfg_ws/install/pers_msgs/lib/libpers_msgs__rosidl_generator_c.so\n'}
+[9.348540] (pers_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/giraff-azul2/tfg-villen/tfg_ws/install/pers_msgs/lib/libpers_msgs__rosidl_generator_c.so" to ""\n'}
+[9.349132] (pers_msgs) StdoutLine: {'line': b'-- Installing: /home/giraff-azul2/tfg-villen/tfg_ws/install/pers_msgs/lib/libpers_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[9.349708] (pers_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/giraff-azul2/tfg-villen/tfg_ws/install/pers_msgs/lib/libpers_msgs__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[9.350514] (pers_msgs) StdoutLine: {'line': b'-- Installing: /home/giraff-azul2/tfg-villen/tfg_ws/install/pers_msgs/lib/libpers_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[9.351391] (pers_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/giraff-azul2/tfg-villen/tfg_ws/install/pers_msgs/lib/libpers_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[9.352129] (pers_msgs) StdoutLine: {'line': b'-- Installing: /home/giraff-azul2/tfg-villen/tfg_ws/install/pers_msgs/lib/libpers_msgs__rosidl_typesupport_introspection_c.so\n'}
+[9.352639] (pers_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/giraff-azul2/tfg-villen/tfg_ws/install/pers_msgs/lib/libpers_msgs__rosidl_typesupport_introspection_c.so" to ""\n'}
+[9.352980] (pers_msgs) StdoutLine: {'line': b'-- Installing: /home/giraff-azul2/tfg-villen/tfg_ws/install/pers_msgs/lib/libpers_msgs__rosidl_typesupport_c.so\n'}
+[9.353448] (pers_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/giraff-azul2/tfg-villen/tfg_ws/install/pers_msgs/lib/libpers_msgs__rosidl_typesupport_c.so" to ""\n'}
+[9.354315] (pers_msgs) StdoutLine: {'line': b'-- Installing: /home/giraff-azul2/tfg-villen/tfg_ws/install/pers_msgs/lib/libpers_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[9.355344] (pers_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/giraff-azul2/tfg-villen/tfg_ws/install/pers_msgs/lib/libpers_msgs__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[9.355881] (pers_msgs) StdoutLine: {'line': b'-- Installing: /home/giraff-azul2/tfg-villen/tfg_ws/install/pers_msgs/lib/libpers_msgs__rosidl_typesupport_cpp.so\n'}
+[9.356330] (pers_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/giraff-azul2/tfg-villen/tfg_ws/install/pers_msgs/lib/libpers_msgs__rosidl_typesupport_cpp.so" to ""\n'}
+[9.390008] (-) TimerEvent: {}
+[9.431217] (pers_msgs) StdoutLine: {'line': b"Listing '/home/giraff-azul2/tfg-villen/tfg_ws/install/pers_msgs/lib/python3.10/site-packages/pers_msgs'...\n"}
+[9.432265] (pers_msgs) StdoutLine: {'line': b"Compiling '/home/giraff-azul2/tfg-villen/tfg_ws/install/pers_msgs/lib/python3.10/site-packages/pers_msgs/__init__.py'...\n"}
+[9.432503] (pers_msgs) StdoutLine: {'line': b"Listing '/home/giraff-azul2/tfg-villen/tfg_ws/install/pers_msgs/lib/python3.10/site-packages/pers_msgs/msg'...\n"}
+[9.432719] (pers_msgs) StdoutLine: {'line': b"Compiling '/home/giraff-azul2/tfg-villen/tfg_ws/install/pers_msgs/lib/python3.10/site-packages/pers_msgs/msg/__init__.py'...\n"}
+[9.432909] (pers_msgs) StdoutLine: {'line': b"Compiling '/home/giraff-azul2/tfg-villen/tfg_ws/install/pers_msgs/lib/python3.10/site-packages/pers_msgs/msg/_facemsg.py'...\n"}
+[9.433127] (pers_msgs) StdoutLine: {'line': b"Compiling '/home/giraff-azul2/tfg-villen/tfg_ws/install/pers_msgs/lib/python3.10/site-packages/pers_msgs/msg/_new_usermsg.py'...\n"}
+[9.446347] (pers_msgs) StdoutLine: {'line': b'-- Installing: /home/giraff-azul2/tfg-villen/tfg_ws/install/pers_msgs/lib/libpers_msgs__rosidl_generator_py.so\n'}
+[9.447744] (pers_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/giraff-azul2/tfg-villen/tfg_ws/install/pers_msgs/lib/libpers_msgs__rosidl_generator_py.so" to ""\n'}
+[9.448264] (pers_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/giraff-azul2/tfg-villen/tfg_ws/install/pers_msgs/share/pers_msgs/cmake/export_pers_msgs__rosidl_generator_cExport.cmake\n'}
+[9.448508] (pers_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/giraff-azul2/tfg-villen/tfg_ws/install/pers_msgs/share/pers_msgs/cmake/export_pers_msgs__rosidl_generator_cExport-noconfig.cmake\n'}
+[9.448746] (pers_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/giraff-azul2/tfg-villen/tfg_ws/install/pers_msgs/share/pers_msgs/cmake/export_pers_msgs__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[9.449001] (pers_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/giraff-azul2/tfg-villen/tfg_ws/install/pers_msgs/share/pers_msgs/cmake/export_pers_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[9.449253] (pers_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/giraff-azul2/tfg-villen/tfg_ws/install/pers_msgs/share/pers_msgs/cmake/export_pers_msgs__rosidl_generator_cppExport.cmake\n'}
+[9.449584] (pers_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/giraff-azul2/tfg-villen/tfg_ws/install/pers_msgs/share/pers_msgs/cmake/export_pers_msgs__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[9.449816] (pers_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/giraff-azul2/tfg-villen/tfg_ws/install/pers_msgs/share/pers_msgs/cmake/export_pers_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[9.450140] (pers_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/giraff-azul2/tfg-villen/tfg_ws/install/pers_msgs/share/pers_msgs/cmake/pers_msgs__rosidl_typesupport_introspection_cExport.cmake\n'}
+[9.450364] (pers_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/giraff-azul2/tfg-villen/tfg_ws/install/pers_msgs/share/pers_msgs/cmake/pers_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[9.450690] (pers_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/giraff-azul2/tfg-villen/tfg_ws/install/pers_msgs/share/pers_msgs/cmake/pers_msgs__rosidl_typesupport_cExport.cmake\n'}
+[9.450926] (pers_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/giraff-azul2/tfg-villen/tfg_ws/install/pers_msgs/share/pers_msgs/cmake/pers_msgs__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[9.451200] (pers_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/giraff-azul2/tfg-villen/tfg_ws/install/pers_msgs/share/pers_msgs/cmake/pers_msgs__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[9.451430] (pers_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/giraff-azul2/tfg-villen/tfg_ws/install/pers_msgs/share/pers_msgs/cmake/pers_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[9.451816] (pers_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/giraff-azul2/tfg-villen/tfg_ws/install/pers_msgs/share/pers_msgs/cmake/pers_msgs__rosidl_typesupport_cppExport.cmake\n'}
+[9.452052] (pers_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/giraff-azul2/tfg-villen/tfg_ws/install/pers_msgs/share/pers_msgs/cmake/pers_msgs__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[9.452366] (pers_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/giraff-azul2/tfg-villen/tfg_ws/install/pers_msgs/share/pers_msgs/cmake/export_pers_msgs__rosidl_generator_pyExport.cmake\n'}
+[9.452539] (pers_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/giraff-azul2/tfg-villen/tfg_ws/install/pers_msgs/share/pers_msgs/cmake/export_pers_msgs__rosidl_generator_pyExport-noconfig.cmake\n'}
+[9.465715] (pers_msgs) CommandEnded: {'returncode': 0}
+[9.491350] (-) TimerEvent: {}
+[9.591735] (-) TimerEvent: {}
+[9.684899] (pers_msgs) JobEnded: {'identifier': 'pers_msgs', 'rc': 0}
+[9.688506] (fer_pkg) JobStarted: {'identifier': 'fer_pkg'}
+[9.692661] (-) TimerEvent: {}
+[9.793377] (-) TimerEvent: {}
+[9.893887] (-) TimerEvent: {}
+[9.994890] (-) TimerEvent: {}
+[10.095606] (-) TimerEvent: {}
+[10.195930] (-) TimerEvent: {}
+[10.296273] (-) TimerEvent: {}
+[10.396644] (-) TimerEvent: {}
+[10.497019] (-) TimerEvent: {}
+[10.597342] (-) TimerEvent: {}
+[10.697737] (-) TimerEvent: {}
+[10.798079] (-) TimerEvent: {}
+[10.898551] (-) TimerEvent: {}
+[10.998959] (-) TimerEvent: {}
+[11.099324] (-) TimerEvent: {}
+[11.194585] (fer_pkg) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/fer_pkg', 'build', '--build-base', '/home/giraff-azul2/tfg-villen/tfg_ws/build/fer_pkg/build', 'install', '--record', '/home/giraff-azul2/tfg-villen/tfg_ws/build/fer_pkg/install.log', '--single-version-externally-managed'], 'cwd': '/home/giraff-azul2/tfg-villen/tfg_ws/src/fer_pkg', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_US', 'USER': 'giraff-azul2', 'XDG_SEAT': 'seat0', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/giraff-azul2/tfg-villen/tfg_ws/install/pers_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/giraff-azul2', 'OLDPWD': '/home/giraff-azul2/tfg-villen/tfg_ws/src', 'DESKTOP_SESSION': 'xubuntu', 'PANEL_GDK_CORE_DEVICE_EVENTS': '0', 'ROS_PYTHON_VERSION': '3', 'XDG_SEAT_PATH': '/org/freedesktop/DisplayManager/Seat0', 'PS1': '(tfg_venv) \\[\\e]0;\\u@\\h: \\w\\a\\]${debian_chroot:+($debian_chroot)}\\[\\033[01;32m\\]\\u@\\h\\[\\033[00m\\]:\\[\\033[01;34m\\]\\w\\[\\033[00m\\]\\$', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'QT_QPA_PLATFORMTHEME': 'gtk2', 'COLCON_PREFIX_PATH': '/home/giraff-azul2/tfg-villen/tfg_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'giraff-azul2', 'WINDOWID': '79691779', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'CLUTTER_BACKEND': 'x11', 'TERM': 'xterm-256color', 'GTK_OVERLAY_SCROLLING': '0', 'XDG_SESSION_ID': 'c1', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/giraff-azul2/tfg-villen/tfg_venv/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/giraffazul2-desktop:@/tmp/.ICE-unix/949,unix/giraffazul2-desktop:/tmp/.ICE-unix/949', 'GDM_LANG': 'en_US', 'XDG_SESSION_PATH': '/org/freedesktop/DisplayManager/Session0', 'XDG_MENU_PREFIX': 'xfce-', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0.0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'XFCE', 'VIRTUAL_ENV_PROMPT': '(tfg_venv)', 'XDG_SESSION_DESKTOP': 'xubuntu', 'XAUTHORITY': '/home/giraff-azul2/.Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '1', 'XDG_GREETER_DATA_DIR': '/var/lib/lightdm-data/giraff-azul2', 'AMENT_PREFIX_PATH': '/home/giraff-azul2/tfg-villen/tfg_ws/install/fer_pkg:/home/giraff-azul2/tfg-villen/tfg_ws/install/pers_msgs:/opt/ros/humble', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'xubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'VIRTUAL_ENV': '/home/giraff-azul2/tfg-villen/tfg_venv', 'XDG_VTNR': '7', 'PWD': '/home/giraff-azul2/tfg-villen/tfg_ws/build/fer_pkg', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-xubuntu:/etc/xdg:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/xubuntu:/usr/share/xfce4:/usr/local/share:/usr/share:/var/lib/snapd/desktop:/usr/share', 'PYTHONPATH': '/home/giraff-azul2/tfg-villen/tfg_ws/build/fer_pkg/prefix_override:/home/giraff-azul2/tfg-villen/tfg_ws/install/fer_pkg/lib/python3.10/site-packages:/home/giraff-azul2/tfg-villen/tfg_ws/install/pers_msgs/lib/python3.10/site-packages:/home/giraff-azul2/tfg-villen/tfg_ws/install/fer_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/home/giraff-azul2/tfg-villen/tfg_venv/lib/python3.10/site-packages', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/giraff-azul2/tfg-villen/tfg_ws/install/pers_msgs'}, 'shell': False}
+[11.199447] (-) TimerEvent: {}
+[11.299884] (-) TimerEvent: {}
+[11.400339] (-) TimerEvent: {}
+[11.500712] (-) TimerEvent: {}
+[11.601167] (-) TimerEvent: {}
+[11.701617] (-) TimerEvent: {}
+[11.802136] (-) TimerEvent: {}
+[11.813361] (fer_pkg) StdoutLine: {'line': b'running egg_info\n'}
+[11.814172] (fer_pkg) StdoutLine: {'line': b'writing ../../build/fer_pkg/fer_pkg.egg-info/PKG-INFO\n'}
+[11.814517] (fer_pkg) StdoutLine: {'line': b'writing dependency_links to ../../build/fer_pkg/fer_pkg.egg-info/dependency_links.txt\n'}
+[11.814832] (fer_pkg) StdoutLine: {'line': b'writing entry points to ../../build/fer_pkg/fer_pkg.egg-info/entry_points.txt\n'}
+[11.815042] (fer_pkg) StdoutLine: {'line': b'writing requirements to ../../build/fer_pkg/fer_pkg.egg-info/requires.txt\n'}
+[11.815227] (fer_pkg) StdoutLine: {'line': b'writing top-level names to ../../build/fer_pkg/fer_pkg.egg-info/top_level.txt\n'}
+[11.822247] (fer_pkg) StdoutLine: {'line': b"reading manifest file '../../build/fer_pkg/fer_pkg.egg-info/SOURCES.txt'\n"}
+[11.824175] (fer_pkg) StdoutLine: {'line': b"writing manifest file '../../build/fer_pkg/fer_pkg.egg-info/SOURCES.txt'\n"}
+[11.824602] (fer_pkg) StdoutLine: {'line': b'running build\n'}
+[11.824723] (fer_pkg) StdoutLine: {'line': b'running build_py\n'}
+[11.824896] (fer_pkg) StdoutLine: {'line': b'copying fer_pkg/Face_detector_node.py -> /home/giraff-azul2/tfg-villen/tfg_ws/build/fer_pkg/build/lib/fer_pkg\n'}
+[11.825174] (fer_pkg) StdoutLine: {'line': b'copying fer_pkg/TelegramNode.py -> /home/giraff-azul2/tfg-villen/tfg_ws/build/fer_pkg/build/lib/fer_pkg\n'}
+[11.825428] (fer_pkg) StdoutLine: {'line': b'copying fer_pkg/Emotion_detector_node.py -> /home/giraff-azul2/tfg-villen/tfg_ws/build/fer_pkg/build/lib/fer_pkg\n'}
+[11.826106] (fer_pkg) StdoutLine: {'line': b'running install\n'}
+[11.827175] (fer_pkg) StderrLine: {'line': b'/home/giraff-azul2/tfg-villen/tfg_venv/lib/python3.10/site-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[11.827798] (fer_pkg) StderrLine: {'line': b'  warnings.warn(\n'}
+[11.828187] (fer_pkg) StdoutLine: {'line': b'running install_lib\n'}
+[11.831724] (fer_pkg) StdoutLine: {'line': b'copying /home/giraff-azul2/tfg-villen/tfg_ws/build/fer_pkg/build/lib/fer_pkg/Face_detector_node.py -> /home/giraff-azul2/tfg-villen/tfg_ws/install/fer_pkg/lib/python3.10/site-packages/fer_pkg\n'}
+[11.832086] (fer_pkg) StdoutLine: {'line': b'copying /home/giraff-azul2/tfg-villen/tfg_ws/build/fer_pkg/build/lib/fer_pkg/TelegramNode.py -> /home/giraff-azul2/tfg-villen/tfg_ws/install/fer_pkg/lib/python3.10/site-packages/fer_pkg\n'}
+[11.832455] (fer_pkg) StdoutLine: {'line': b'copying /home/giraff-azul2/tfg-villen/tfg_ws/build/fer_pkg/build/lib/fer_pkg/Emotion_detector_node.py -> /home/giraff-azul2/tfg-villen/tfg_ws/install/fer_pkg/lib/python3.10/site-packages/fer_pkg\n'}
+[11.836152] (fer_pkg) StdoutLine: {'line': b'byte-compiling /home/giraff-azul2/tfg-villen/tfg_ws/install/fer_pkg/lib/python3.10/site-packages/fer_pkg/Face_detector_node.py to Face_detector_node.cpython-310.pyc\n'}
+[11.842603] (fer_pkg) StdoutLine: {'line': b'byte-compiling /home/giraff-azul2/tfg-villen/tfg_ws/install/fer_pkg/lib/python3.10/site-packages/fer_pkg/TelegramNode.py to TelegramNode.cpython-310.pyc\n'}
+[11.845479] (fer_pkg) StdoutLine: {'line': b'byte-compiling /home/giraff-azul2/tfg-villen/tfg_ws/install/fer_pkg/lib/python3.10/site-packages/fer_pkg/Emotion_detector_node.py to Emotion_detector_node.cpython-310.pyc\n'}
+[11.848942] (fer_pkg) StdoutLine: {'line': b'running install_data\n'}
+[11.850863] (fer_pkg) StdoutLine: {'line': b'running install_egg_info\n'}
+[11.855967] (fer_pkg) StdoutLine: {'line': b"removing '/home/giraff-azul2/tfg-villen/tfg_ws/install/fer_pkg/lib/python3.10/site-packages/fer_pkg-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[11.856665] (fer_pkg) StdoutLine: {'line': b'Copying ../../build/fer_pkg/fer_pkg.egg-info to /home/giraff-azul2/tfg-villen/tfg_ws/install/fer_pkg/lib/python3.10/site-packages/fer_pkg-0.0.0-py3.10.egg-info\n'}
+[11.858657] (fer_pkg) StdoutLine: {'line': b'running install_scripts\n'}
+[11.896701] (fer_pkg) StdoutLine: {'line': b'Installing Emotion_detector_node script to /home/giraff-azul2/tfg-villen/tfg_ws/install/fer_pkg/lib/fer_pkg\n'}
+[11.897072] (fer_pkg) StdoutLine: {'line': b'Installing Face_detector_node script to /home/giraff-azul2/tfg-villen/tfg_ws/install/fer_pkg/lib/fer_pkg\n'}
+[11.897313] (fer_pkg) StdoutLine: {'line': b'Installing TelegramNode script to /home/giraff-azul2/tfg-villen/tfg_ws/install/fer_pkg/lib/fer_pkg\n'}
+[11.897552] (fer_pkg) StdoutLine: {'line': b'Installing my_node script to /home/giraff-azul2/tfg-villen/tfg_ws/install/fer_pkg/lib/fer_pkg\n'}
+[11.897883] (fer_pkg) StdoutLine: {'line': b"writing list of installed files to '/home/giraff-azul2/tfg-villen/tfg_ws/build/fer_pkg/install.log'\n"}
+[11.902409] (-) TimerEvent: {}
+[11.983096] (fer_pkg) CommandEnded: {'returncode': 0}
+[11.999155] (fer_pkg) JobEnded: {'identifier': 'fer_pkg', 'rc': 0}
+[12.000353] (-) EventReactorShutdown: {}

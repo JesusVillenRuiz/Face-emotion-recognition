@@ -1,0 +1,11 @@
+setup.py
+pers_msgs/__init__.py
+pers_msgs.egg-info/PKG-INFO
+pers_msgs.egg-info/SOURCES.txt
+pers_msgs.egg-info/dependency_links.txt
+pers_msgs.egg-info/top_level.txt
+pers_msgs/msg/__init__.py
+pers_msgs/msg/_caramsg.py
+pers_msgs/msg/_facemsg.py
+pers_msgs/msg/_new_usermsg.py
+pers_msgs/msg/_nuevo_usuariomsg.py

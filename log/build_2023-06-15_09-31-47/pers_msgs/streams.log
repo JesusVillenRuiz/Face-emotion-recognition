@@ -1,0 +1,134 @@
+[0.027s] Invoking command in '/home/giraff-azul2/tfg-villen/tfg_ws/build/pers_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/giraff-azul2/tfg-villen/tfg_ws/install/fer_pkg:/opt/ros/humble PS1=(tfg_venv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(tfg_venv) /home/giraff-azul2/tfg-villen/tfg_venv/bin/cmake --build /home/giraff-azul2/tfg-villen/tfg_ws/build/pers_msgs -- -j8 -l8
+[0.294s] [  2%] Built target pers_msgs__cpp
+[0.302s] [  2%] Built target ament_cmake_python_symlink_pers_msgs
+[0.327s] [ 12%] Built target pers_msgs__rosidl_generator_c
+[0.356s] [ 23%] Built target pers_msgs__rosidl_typesupport_fastrtps_cpp
+[0.356s] [ 33%] Built target pers_msgs__rosidl_typesupport_introspection_cpp
+[0.358s] [ 43%] Built target pers_msgs__rosidl_typesupport_cpp
+[0.370s] [ 64%] Built target pers_msgs__rosidl_typesupport_c
+[0.370s] [ 64%] Built target pers_msgs__rosidl_typesupport_introspection_c
+[0.373s] [ 74%] Built target pers_msgs__rosidl_typesupport_fastrtps_c
+[0.395s] [ 74%] Built target pers_msgs
+[0.419s] [ 76%] Built target pers_msgs__py
+[0.459s] [ 84%] Built target pers_msgs__rosidl_generator_py
+[0.486s] [100%] Built target pers_msgs__rosidl_typesupport_fastrtps_c__pyext
+[0.486s] [100%] Built target pers_msgs__rosidl_typesupport_introspection_c__pyext
+[0.487s] [100%] Built target pers_msgs__rosidl_typesupport_c__pyext
+[0.648s] running egg_info
+[0.650s] writing pers_msgs.egg-info/PKG-INFO
+[0.650s] writing dependency_links to pers_msgs.egg-info/dependency_links.txt
+[0.650s] writing top-level names to pers_msgs.egg-info/top_level.txt
+[0.654s] reading manifest file 'pers_msgs.egg-info/SOURCES.txt'
+[0.655s] writing manifest file 'pers_msgs.egg-info/SOURCES.txt'
+[0.688s] [100%] Built target ament_cmake_python_build_pers_msgs_egg
+[0.714s] Invoked command in '/home/giraff-azul2/tfg-villen/tfg_ws/build/pers_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/giraff-azul2/tfg-villen/tfg_ws/install/fer_pkg:/opt/ros/humble PS1=(tfg_venv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(tfg_venv) /home/giraff-azul2/tfg-villen/tfg_venv/bin/cmake --build /home/giraff-azul2/tfg-villen/tfg_ws/build/pers_msgs -- -j8 -l8
+[0.892s] Invoking command in '/home/giraff-azul2/tfg-villen/tfg_ws/build/pers_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/giraff-azul2/tfg-villen/tfg_ws/install/fer_pkg:/opt/ros/humble PS1=(tfg_venv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(tfg_venv) /home/giraff-azul2/tfg-villen/tfg_venv/bin/cmake --install /home/giraff-azul2/tfg-villen/tfg_ws/build/pers_msgs
+[0.936s] -- Install configuration: ""
+[0.938s] -- Execute custom install script
+[0.939s] -- Up-to-date symlink: /home/giraff-azul2/tfg-villen/tfg_ws/install/pers_msgs/share/ament_index/resource_index/rosidl_interfaces/pers_msgs
+[0.943s] -- Up-to-date symlink: /home/giraff-azul2/tfg-villen/tfg_ws/install/pers_msgs/include/pers_msgs/pers_msgs/msg/caramsg.h
+[0.943s] -- Up-to-date symlink: /home/giraff-azul2/tfg-villen/tfg_ws/install/pers_msgs/include/pers_msgs/pers_msgs/msg/detail/caramsg__functions.h
+[0.943s] -- Up-to-date symlink: /home/giraff-azul2/tfg-villen/tfg_ws/install/pers_msgs/include/pers_msgs/pers_msgs/msg/detail/caramsg__struct.h
+[0.943s] -- Up-to-date symlink: /home/giraff-azul2/tfg-villen/tfg_ws/install/pers_msgs/include/pers_msgs/pers_msgs/msg/detail/caramsg__type_support.h
+[0.944s] -- Up-to-date symlink: /home/giraff-azul2/tfg-villen/tfg_ws/install/pers_msgs/include/pers_msgs/pers_msgs/msg/detail/nuevo_usuariomsg__functions.h
+[0.944s] -- Up-to-date symlink: /home/giraff-azul2/tfg-villen/tfg_ws/install/pers_msgs/include/pers_msgs/pers_msgs/msg/detail/nuevo_usuariomsg__struct.h
+[0.945s] -- Up-to-date symlink: /home/giraff-azul2/tfg-villen/tfg_ws/install/pers_msgs/include/pers_msgs/pers_msgs/msg/detail/nuevo_usuariomsg__type_support.h
+[0.945s] -- Up-to-date symlink: /home/giraff-azul2/tfg-villen/tfg_ws/install/pers_msgs/include/pers_msgs/pers_msgs/msg/nuevo_usuariomsg.h
+[0.945s] -- Up-to-date symlink: /home/giraff-azul2/tfg-villen/tfg_ws/install/pers_msgs/include/pers_msgs/pers_msgs/msg/rosidl_generator_c__visibility_control.h
+[0.947s] -- Up-to-date symlink: /home/giraff-azul2/tfg-villen/tfg_ws/install/pers_msgs/share/pers_msgs/environment/library_path.sh
+[0.947s] -- Up-to-date symlink: /home/giraff-azul2/tfg-villen/tfg_ws/install/pers_msgs/share/pers_msgs/environment/library_path.dsv
+[0.948s] -- Up-to-date symlink: /home/giraff-azul2/tfg-villen/tfg_ws/install/pers_msgs/include/pers_msgs/pers_msgs/msg/detail/caramsg__rosidl_typesupport_fastrtps_c.h
+[0.948s] -- Up-to-date symlink: /home/giraff-azul2/tfg-villen/tfg_ws/install/pers_msgs/include/pers_msgs/pers_msgs/msg/detail/nuevo_usuariomsg__rosidl_typesupport_fastrtps_c.h
+[0.949s] -- Up-to-date symlink: /home/giraff-azul2/tfg-villen/tfg_ws/install/pers_msgs/include/pers_msgs/pers_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[0.949s] -- Up-to-date symlink: /home/giraff-azul2/tfg-villen/tfg_ws/install/pers_msgs/include/pers_msgs/pers_msgs/msg/caramsg.hpp
+[0.950s] -- Up-to-date symlink: /home/giraff-azul2/tfg-villen/tfg_ws/install/pers_msgs/include/pers_msgs/pers_msgs/msg/detail/caramsg__builder.hpp
+[0.950s] -- Up-to-date symlink: /home/giraff-azul2/tfg-villen/tfg_ws/install/pers_msgs/include/pers_msgs/pers_msgs/msg/detail/caramsg__struct.hpp
+[0.950s] -- Up-to-date symlink: /home/giraff-azul2/tfg-villen/tfg_ws/install/pers_msgs/include/pers_msgs/pers_msgs/msg/detail/caramsg__traits.hpp
+[0.950s] -- Up-to-date symlink: /home/giraff-azul2/tfg-villen/tfg_ws/install/pers_msgs/include/pers_msgs/pers_msgs/msg/detail/nuevo_usuariomsg__builder.hpp
+[0.951s] -- Up-to-date symlink: /home/giraff-azul2/tfg-villen/tfg_ws/install/pers_msgs/include/pers_msgs/pers_msgs/msg/detail/nuevo_usuariomsg__struct.hpp
+[0.951s] -- Up-to-date symlink: /home/giraff-azul2/tfg-villen/tfg_ws/install/pers_msgs/include/pers_msgs/pers_msgs/msg/detail/nuevo_usuariomsg__traits.hpp
+[0.951s] -- Up-to-date symlink: /home/giraff-azul2/tfg-villen/tfg_ws/install/pers_msgs/include/pers_msgs/pers_msgs/msg/nuevo_usuariomsg.hpp
+[0.952s] -- Up-to-date symlink: /home/giraff-azul2/tfg-villen/tfg_ws/install/pers_msgs/include/pers_msgs/pers_msgs/msg/detail/caramsg__rosidl_typesupport_fastrtps_cpp.hpp
+[0.952s] -- Up-to-date symlink: /home/giraff-azul2/tfg-villen/tfg_ws/install/pers_msgs/include/pers_msgs/pers_msgs/msg/detail/nuevo_usuariomsg__rosidl_typesupport_fastrtps_cpp.hpp
+[0.953s] -- Up-to-date symlink: /home/giraff-azul2/tfg-villen/tfg_ws/install/pers_msgs/include/pers_msgs/pers_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[0.954s] -- Up-to-date symlink: /home/giraff-azul2/tfg-villen/tfg_ws/install/pers_msgs/include/pers_msgs/pers_msgs/msg/detail/caramsg__rosidl_typesupport_introspection_c.h
+[0.954s] -- Up-to-date symlink: /home/giraff-azul2/tfg-villen/tfg_ws/install/pers_msgs/include/pers_msgs/pers_msgs/msg/detail/nuevo_usuariomsg__rosidl_typesupport_introspection_c.h
+[0.954s] -- Up-to-date symlink: /home/giraff-azul2/tfg-villen/tfg_ws/install/pers_msgs/include/pers_msgs/pers_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[0.955s] -- Up-to-date symlink: /home/giraff-azul2/tfg-villen/tfg_ws/install/pers_msgs/include/pers_msgs/pers_msgs/msg/detail/caramsg__rosidl_typesupport_introspection_cpp.hpp
+[0.955s] -- Up-to-date symlink: /home/giraff-azul2/tfg-villen/tfg_ws/install/pers_msgs/include/pers_msgs/pers_msgs/msg/detail/nuevo_usuariomsg__rosidl_typesupport_introspection_cpp.hpp
+[0.956s] -- Up-to-date symlink: /home/giraff-azul2/tfg-villen/tfg_ws/install/pers_msgs/share/pers_msgs/environment/pythonpath.sh
+[0.956s] -- Up-to-date symlink: /home/giraff-azul2/tfg-villen/tfg_ws/install/pers_msgs/share/pers_msgs/environment/pythonpath.dsv
+[0.957s] -- Up-to-date symlink: /home/giraff-azul2/tfg-villen/tfg_ws/install/pers_msgs/lib/python3.10/site-packages/pers_msgs-0.0.0-py3.10.egg-info/PKG-INFO
+[0.957s] -- Up-to-date symlink: /home/giraff-azul2/tfg-villen/tfg_ws/install/pers_msgs/lib/python3.10/site-packages/pers_msgs-0.0.0-py3.10.egg-info/SOURCES.txt
+[0.957s] -- Up-to-date symlink: /home/giraff-azul2/tfg-villen/tfg_ws/install/pers_msgs/lib/python3.10/site-packages/pers_msgs-0.0.0-py3.10.egg-info/dependency_links.txt
+[0.958s] -- Up-to-date symlink: /home/giraff-azul2/tfg-villen/tfg_ws/install/pers_msgs/lib/python3.10/site-packages/pers_msgs-0.0.0-py3.10.egg-info/top_level.txt
+[0.959s] -- Up-to-date symlink: /home/giraff-azul2/tfg-villen/tfg_ws/install/pers_msgs/lib/python3.10/site-packages/pers_msgs/__init__.py
+[0.959s] -- Up-to-date symlink: /home/giraff-azul2/tfg-villen/tfg_ws/install/pers_msgs/lib/python3.10/site-packages/pers_msgs/_pers_msgs_s.ep.rosidl_typesupport_c.c
+[0.959s] -- Up-to-date symlink: /home/giraff-azul2/tfg-villen/tfg_ws/install/pers_msgs/lib/python3.10/site-packages/pers_msgs/_pers_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[0.960s] -- Up-to-date symlink: /home/giraff-azul2/tfg-villen/tfg_ws/install/pers_msgs/lib/python3.10/site-packages/pers_msgs/_pers_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[0.960s] -- Up-to-date symlink: /home/giraff-azul2/tfg-villen/tfg_ws/install/pers_msgs/lib/python3.10/site-packages/pers_msgs/libpers_msgs__rosidl_generator_py.so
+[0.960s] -- Up-to-date symlink: /home/giraff-azul2/tfg-villen/tfg_ws/install/pers_msgs/lib/python3.10/site-packages/pers_msgs/msg/__init__.py
+[0.961s] -- Up-to-date symlink: /home/giraff-azul2/tfg-villen/tfg_ws/install/pers_msgs/lib/python3.10/site-packages/pers_msgs/msg/_caramsg.py
+[0.961s] -- Up-to-date symlink: /home/giraff-azul2/tfg-villen/tfg_ws/install/pers_msgs/lib/python3.10/site-packages/pers_msgs/msg/_caramsg_s.c
+[0.961s] -- Up-to-date symlink: /home/giraff-azul2/tfg-villen/tfg_ws/install/pers_msgs/lib/python3.10/site-packages/pers_msgs/msg/_nuevo_usuariomsg.py
+[0.962s] -- Up-to-date symlink: /home/giraff-azul2/tfg-villen/tfg_ws/install/pers_msgs/lib/python3.10/site-packages/pers_msgs/msg/_nuevo_usuariomsg_s.c
+[0.962s] -- Up-to-date symlink: /home/giraff-azul2/tfg-villen/tfg_ws/install/pers_msgs/lib/python3.10/site-packages/pers_msgs/pers_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[0.962s] -- Up-to-date symlink: /home/giraff-azul2/tfg-villen/tfg_ws/install/pers_msgs/lib/python3.10/site-packages/pers_msgs/pers_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[0.962s] -- Up-to-date symlink: /home/giraff-azul2/tfg-villen/tfg_ws/install/pers_msgs/lib/python3.10/site-packages/pers_msgs/pers_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[0.963s] -- Up-to-date symlink: /home/giraff-azul2/tfg-villen/tfg_ws/install/pers_msgs/lib/python3.10/site-packages/pers_msgs/pers_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[0.964s] -- Up-to-date symlink: /home/giraff-azul2/tfg-villen/tfg_ws/install/pers_msgs/lib/python3.10/site-packages/pers_msgs/pers_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[0.964s] -- Up-to-date symlink: /home/giraff-azul2/tfg-villen/tfg_ws/install/pers_msgs/lib/python3.10/site-packages/pers_msgs/pers_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[0.965s] -- Up-to-date symlink: /home/giraff-azul2/tfg-villen/tfg_ws/install/pers_msgs/share/pers_msgs/msg/Caramsg.idl
+[0.965s] -- Up-to-date symlink: /home/giraff-azul2/tfg-villen/tfg_ws/install/pers_msgs/share/pers_msgs/msg/NuevoUsuariomsg.idl
+[0.966s] -- Up-to-date symlink: /home/giraff-azul2/tfg-villen/tfg_ws/install/pers_msgs/share/pers_msgs/msg/Caramsg.msg
+[0.966s] -- Up-to-date symlink: /home/giraff-azul2/tfg-villen/tfg_ws/install/pers_msgs/share/pers_msgs/msg/NuevoUsuariomsg.msg
+[0.966s] -- Up-to-date symlink: /home/giraff-azul2/tfg-villen/tfg_ws/install/pers_msgs/share/ament_index/resource_index/package_run_dependencies/pers_msgs
+[0.967s] -- Up-to-date symlink: /home/giraff-azul2/tfg-villen/tfg_ws/install/pers_msgs/share/ament_index/resource_index/parent_prefix_path/pers_msgs
+[0.967s] -- Up-to-date symlink: /home/giraff-azul2/tfg-villen/tfg_ws/install/pers_msgs/share/pers_msgs/environment/ament_prefix_path.sh
+[0.968s] -- Up-to-date symlink: /home/giraff-azul2/tfg-villen/tfg_ws/install/pers_msgs/share/pers_msgs/environment/ament_prefix_path.dsv
+[0.968s] -- Up-to-date symlink: /home/giraff-azul2/tfg-villen/tfg_ws/install/pers_msgs/share/pers_msgs/environment/path.sh
+[0.968s] -- Up-to-date symlink: /home/giraff-azul2/tfg-villen/tfg_ws/install/pers_msgs/share/pers_msgs/environment/path.dsv
+[0.969s] -- Up-to-date symlink: /home/giraff-azul2/tfg-villen/tfg_ws/install/pers_msgs/share/pers_msgs/local_setup.bash
+[0.969s] -- Up-to-date symlink: /home/giraff-azul2/tfg-villen/tfg_ws/install/pers_msgs/share/pers_msgs/local_setup.sh
+[0.970s] -- Up-to-date symlink: /home/giraff-azul2/tfg-villen/tfg_ws/install/pers_msgs/share/pers_msgs/local_setup.zsh
+[0.970s] -- Up-to-date symlink: /home/giraff-azul2/tfg-villen/tfg_ws/install/pers_msgs/share/pers_msgs/local_setup.dsv
+[0.970s] -- Symlinking: /home/giraff-azul2/tfg-villen/tfg_ws/install/pers_msgs/share/pers_msgs/package.dsv
+[0.980s] -- Up-to-date symlink: /home/giraff-azul2/tfg-villen/tfg_ws/install/pers_msgs/share/ament_index/resource_index/packages/pers_msgs
+[0.981s] -- Up-to-date symlink: /home/giraff-azul2/tfg-villen/tfg_ws/install/pers_msgs/share/pers_msgs/cmake/rosidl_cmake-extras.cmake
+[0.981s] -- Up-to-date symlink: /home/giraff-azul2/tfg-villen/tfg_ws/install/pers_msgs/share/pers_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.982s] -- Up-to-date symlink: /home/giraff-azul2/tfg-villen/tfg_ws/install/pers_msgs/share/pers_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.982s] -- Up-to-date symlink: /home/giraff-azul2/tfg-villen/tfg_ws/install/pers_msgs/share/pers_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[0.983s] -- Up-to-date symlink: /home/giraff-azul2/tfg-villen/tfg_ws/install/pers_msgs/share/pers_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[0.983s] -- Up-to-date symlink: /home/giraff-azul2/tfg-villen/tfg_ws/install/pers_msgs/share/pers_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[0.983s] -- Up-to-date symlink: /home/giraff-azul2/tfg-villen/tfg_ws/install/pers_msgs/share/pers_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[0.984s] -- Up-to-date symlink: /home/giraff-azul2/tfg-villen/tfg_ws/install/pers_msgs/share/pers_msgs/cmake/pers_msgsConfig.cmake
+[0.984s] -- Up-to-date symlink: /home/giraff-azul2/tfg-villen/tfg_ws/install/pers_msgs/share/pers_msgs/cmake/pers_msgsConfig-version.cmake
+[0.985s] -- Up-to-date symlink: /home/giraff-azul2/tfg-villen/tfg_ws/install/pers_msgs/share/pers_msgs/package.xml
+[0.985s] -- Up-to-date: /home/giraff-azul2/tfg-villen/tfg_ws/install/pers_msgs/lib/libpers_msgs__rosidl_generator_c.so
+[0.985s] -- Up-to-date: /home/giraff-azul2/tfg-villen/tfg_ws/install/pers_msgs/lib/libpers_msgs__rosidl_typesupport_fastrtps_c.so
+[0.987s] -- Up-to-date: /home/giraff-azul2/tfg-villen/tfg_ws/install/pers_msgs/lib/libpers_msgs__rosidl_typesupport_fastrtps_cpp.so
+[0.987s] -- Up-to-date: /home/giraff-azul2/tfg-villen/tfg_ws/install/pers_msgs/lib/libpers_msgs__rosidl_typesupport_introspection_c.so
+[0.987s] -- Up-to-date: /home/giraff-azul2/tfg-villen/tfg_ws/install/pers_msgs/lib/libpers_msgs__rosidl_typesupport_c.so
+[0.988s] -- Up-to-date: /home/giraff-azul2/tfg-villen/tfg_ws/install/pers_msgs/lib/libpers_msgs__rosidl_typesupport_introspection_cpp.so
+[0.989s] -- Up-to-date: /home/giraff-azul2/tfg-villen/tfg_ws/install/pers_msgs/lib/libpers_msgs__rosidl_typesupport_cpp.so
+[1.035s] Listing '/home/giraff-azul2/tfg-villen/tfg_ws/install/pers_msgs/lib/python3.10/site-packages/pers_msgs'...
+[1.036s] Listing '/home/giraff-azul2/tfg-villen/tfg_ws/install/pers_msgs/lib/python3.10/site-packages/pers_msgs/msg'...
+[1.041s] -- Up-to-date: /home/giraff-azul2/tfg-villen/tfg_ws/install/pers_msgs/lib/libpers_msgs__rosidl_generator_py.so
+[1.043s] -- Up-to-date: /home/giraff-azul2/tfg-villen/tfg_ws/install/pers_msgs/share/pers_msgs/cmake/export_pers_msgs__rosidl_generator_cExport.cmake
+[1.043s] -- Up-to-date: /home/giraff-azul2/tfg-villen/tfg_ws/install/pers_msgs/share/pers_msgs/cmake/export_pers_msgs__rosidl_generator_cExport-noconfig.cmake
+[1.043s] -- Up-to-date: /home/giraff-azul2/tfg-villen/tfg_ws/install/pers_msgs/share/pers_msgs/cmake/export_pers_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[1.043s] -- Up-to-date: /home/giraff-azul2/tfg-villen/tfg_ws/install/pers_msgs/share/pers_msgs/cmake/export_pers_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[1.044s] -- Up-to-date: /home/giraff-azul2/tfg-villen/tfg_ws/install/pers_msgs/share/pers_msgs/cmake/export_pers_msgs__rosidl_generator_cppExport.cmake
+[1.045s] -- Up-to-date: /home/giraff-azul2/tfg-villen/tfg_ws/install/pers_msgs/share/pers_msgs/cmake/export_pers_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[1.045s] -- Up-to-date: /home/giraff-azul2/tfg-villen/tfg_ws/install/pers_msgs/share/pers_msgs/cmake/export_pers_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[1.045s] -- Up-to-date: /home/giraff-azul2/tfg-villen/tfg_ws/install/pers_msgs/share/pers_msgs/cmake/pers_msgs__rosidl_typesupport_introspection_cExport.cmake
+[1.046s] -- Up-to-date: /home/giraff-azul2/tfg-villen/tfg_ws/install/pers_msgs/share/pers_msgs/cmake/pers_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[1.046s] -- Up-to-date: /home/giraff-azul2/tfg-villen/tfg_ws/install/pers_msgs/share/pers_msgs/cmake/pers_msgs__rosidl_typesupport_cExport.cmake
+[1.047s] -- Up-to-date: /home/giraff-azul2/tfg-villen/tfg_ws/install/pers_msgs/share/pers_msgs/cmake/pers_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[1.047s] -- Up-to-date: /home/giraff-azul2/tfg-villen/tfg_ws/install/pers_msgs/share/pers_msgs/cmake/pers_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[1.047s] -- Up-to-date: /home/giraff-azul2/tfg-villen/tfg_ws/install/pers_msgs/share/pers_msgs/cmake/pers_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[1.048s] -- Up-to-date: /home/giraff-azul2/tfg-villen/tfg_ws/install/pers_msgs/share/pers_msgs/cmake/pers_msgs__rosidl_typesupport_cppExport.cmake
+[1.048s] -- Up-to-date: /home/giraff-azul2/tfg-villen/tfg_ws/install/pers_msgs/share/pers_msgs/cmake/pers_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[1.049s] -- Up-to-date: /home/giraff-azul2/tfg-villen/tfg_ws/install/pers_msgs/share/pers_msgs/cmake/export_pers_msgs__rosidl_generator_pyExport.cmake
+[1.049s] -- Up-to-date: /home/giraff-azul2/tfg-villen/tfg_ws/install/pers_msgs/share/pers_msgs/cmake/export_pers_msgs__rosidl_generator_pyExport-noconfig.cmake
+[1.058s] Invoked command in '/home/giraff-azul2/tfg-villen/tfg_ws/build/pers_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/giraff-azul2/tfg-villen/tfg_ws/install/fer_pkg:/opt/ros/humble PS1=(tfg_venv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(tfg_venv) /home/giraff-azul2/tfg-villen/tfg_venv/bin/cmake --install /home/giraff-azul2/tfg-villen/tfg_ws/build/pers_msgs

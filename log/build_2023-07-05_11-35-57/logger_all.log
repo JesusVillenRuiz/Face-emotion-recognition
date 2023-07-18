@@ -1,0 +1,207 @@
+[0.590s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.590s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7efd4212e4d0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7efd42b908b0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7efd42b908b0>>)
+[0.629s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.629s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.629s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.629s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.629s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.630s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.630s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/giraff-azul2/tfg-villen/tfg_ws'
+[0.630s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.630s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.630s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.630s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.630s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.630s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.630s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.630s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.630s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.663s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.663s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.663s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.664s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.664s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.664s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.664s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.664s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.664s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.664s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.664s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.665s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.665s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.665s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.665s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.665s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.665s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.665s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.666s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.666s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.666s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.666s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.666s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.666s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.666s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.666s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.666s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.666s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.667s] Level 1:colcon.colcon_core.package_identification:_identify(src/fer_pkg) by extensions ['ignore', 'ignore_ament_install']
+[0.667s] Level 1:colcon.colcon_core.package_identification:_identify(src/fer_pkg) by extension 'ignore'
+[0.667s] Level 1:colcon.colcon_core.package_identification:_identify(src/fer_pkg) by extension 'ignore_ament_install'
+[0.667s] Level 1:colcon.colcon_core.package_identification:_identify(src/fer_pkg) by extensions ['colcon_pkg']
+[0.667s] Level 1:colcon.colcon_core.package_identification:_identify(src/fer_pkg) by extension 'colcon_pkg'
+[0.667s] Level 1:colcon.colcon_core.package_identification:_identify(src/fer_pkg) by extensions ['colcon_meta']
+[0.667s] Level 1:colcon.colcon_core.package_identification:_identify(src/fer_pkg) by extension 'colcon_meta'
+[0.667s] Level 1:colcon.colcon_core.package_identification:_identify(src/fer_pkg) by extensions ['ros']
+[0.667s] Level 1:colcon.colcon_core.package_identification:_identify(src/fer_pkg) by extension 'ros'
+[0.671s] DEBUG:colcon.colcon_core.package_identification:Package 'src/fer_pkg' with type 'ros.ament_python' and name 'fer_pkg'
+[0.671s] Level 1:colcon.colcon_core.package_identification:_identify(src/pers_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.671s] Level 1:colcon.colcon_core.package_identification:_identify(src/pers_msgs) by extension 'ignore'
+[0.671s] Level 1:colcon.colcon_core.package_identification:_identify(src/pers_msgs) by extension 'ignore_ament_install'
+[0.671s] Level 1:colcon.colcon_core.package_identification:_identify(src/pers_msgs) by extensions ['colcon_pkg']
+[0.671s] Level 1:colcon.colcon_core.package_identification:_identify(src/pers_msgs) by extension 'colcon_pkg'
+[0.671s] Level 1:colcon.colcon_core.package_identification:_identify(src/pers_msgs) by extensions ['colcon_meta']
+[0.671s] Level 1:colcon.colcon_core.package_identification:_identify(src/pers_msgs) by extension 'colcon_meta'
+[0.671s] Level 1:colcon.colcon_core.package_identification:_identify(src/pers_msgs) by extensions ['ros']
+[0.671s] Level 1:colcon.colcon_core.package_identification:_identify(src/pers_msgs) by extension 'ros'
+[0.672s] DEBUG:colcon.colcon_core.package_identification:Package 'src/pers_msgs' with type 'ros.ament_cmake' and name 'pers_msgs'
+[0.672s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.672s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.672s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.673s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.673s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.707s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.707s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.713s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 19 installed packages in /home/giraff-azul2/mapir_ws/install
+[0.717s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 338 installed packages in /opt/ros/humble
+[0.720s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.836s] Level 5:colcon.colcon_core.verb:set package 'pers_msgs' build argument 'cmake_args' from command line to 'None'
+[0.836s] Level 5:colcon.colcon_core.verb:set package 'pers_msgs' build argument 'cmake_target' from command line to 'None'
+[0.836s] Level 5:colcon.colcon_core.verb:set package 'pers_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.836s] Level 5:colcon.colcon_core.verb:set package 'pers_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.836s] Level 5:colcon.colcon_core.verb:set package 'pers_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.836s] Level 5:colcon.colcon_core.verb:set package 'pers_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.836s] Level 5:colcon.colcon_core.verb:set package 'pers_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.837s] Level 5:colcon.colcon_core.verb:set package 'pers_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.837s] Level 5:colcon.colcon_core.verb:set package 'pers_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.837s] DEBUG:colcon.colcon_core.verb:Building package 'pers_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/giraff-azul2/tfg-villen/tfg_ws/build/pers_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/giraff-azul2/tfg-villen/tfg_ws/install/pers_msgs', 'merge_install': False, 'path': '/home/giraff-azul2/tfg-villen/tfg_ws/src/pers_msgs', 'symlink_install': False, 'test_result_base': None}
+[0.839s] Level 5:colcon.colcon_core.verb:set package 'fer_pkg' build argument 'cmake_args' from command line to 'None'
+[0.839s] Level 5:colcon.colcon_core.verb:set package 'fer_pkg' build argument 'cmake_target' from command line to 'None'
+[0.839s] Level 5:colcon.colcon_core.verb:set package 'fer_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.839s] Level 5:colcon.colcon_core.verb:set package 'fer_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[0.839s] Level 5:colcon.colcon_core.verb:set package 'fer_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[0.839s] Level 5:colcon.colcon_core.verb:set package 'fer_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[0.839s] Level 5:colcon.colcon_core.verb:set package 'fer_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[0.839s] Level 5:colcon.colcon_core.verb:set package 'fer_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[0.839s] Level 5:colcon.colcon_core.verb:set package 'fer_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.839s] DEBUG:colcon.colcon_core.verb:Building package 'fer_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/giraff-azul2/tfg-villen/tfg_ws/build/fer_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/giraff-azul2/tfg-villen/tfg_ws/install/fer_pkg', 'merge_install': False, 'path': '/home/giraff-azul2/tfg-villen/tfg_ws/src/fer_pkg', 'symlink_install': False, 'test_result_base': None}
+[0.841s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.849s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.849s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/giraff-azul2/tfg-villen/tfg_ws/src/pers_msgs' with build type 'ament_cmake'
+[0.850s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/giraff-azul2/tfg-villen/tfg_ws/src/pers_msgs'
+[0.859s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.859s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.860s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.891s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/giraff-azul2/tfg-villen/tfg_ws/build/pers_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/giraff-azul2/mapir_ws/install/task_manager:/home/giraff-azul2/mapir_ws/install/battery_manager:/opt/ros/humble VIRTUAL_ENV_PROMPT=(tfg_venv) /home/giraff-azul2/tfg-villen/tfg_venv/bin/cmake --build /home/giraff-azul2/tfg-villen/tfg_ws/build/pers_msgs -- -j8 -l8
+[1.744s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/giraff-azul2/tfg-villen/tfg_ws/build/pers_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/giraff-azul2/mapir_ws/install/task_manager:/home/giraff-azul2/mapir_ws/install/battery_manager:/opt/ros/humble VIRTUAL_ENV_PROMPT=(tfg_venv) /home/giraff-azul2/tfg-villen/tfg_venv/bin/cmake --build /home/giraff-azul2/tfg-villen/tfg_ws/build/pers_msgs -- -j8 -l8
+[1.969s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/giraff-azul2/tfg-villen/tfg_ws/build/pers_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/giraff-azul2/mapir_ws/install/task_manager:/home/giraff-azul2/mapir_ws/install/battery_manager:/opt/ros/humble VIRTUAL_ENV_PROMPT=(tfg_venv) /home/giraff-azul2/tfg-villen/tfg_venv/bin/cmake --install /home/giraff-azul2/tfg-villen/tfg_ws/build/pers_msgs
+[2.163s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(pers_msgs)
+[2.165s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/giraff-azul2/tfg-villen/tfg_ws/build/pers_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/giraff-azul2/mapir_ws/install/task_manager:/home/giraff-azul2/mapir_ws/install/battery_manager:/opt/ros/humble VIRTUAL_ENV_PROMPT=(tfg_venv) /home/giraff-azul2/tfg-villen/tfg_venv/bin/cmake --install /home/giraff-azul2/tfg-villen/tfg_ws/build/pers_msgs
+[2.171s] Level 1:colcon.colcon_core.environment:checking '/home/giraff-azul2/tfg-villen/tfg_ws/install/pers_msgs' for CMake module files
+[2.172s] Level 1:colcon.colcon_core.environment:checking '/home/giraff-azul2/tfg-villen/tfg_ws/install/pers_msgs' for CMake config files
+[2.174s] Level 1:colcon.colcon_core.shell:create_environment_hook('pers_msgs', 'cmake_prefix_path')
+[2.176s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/giraff-azul2/tfg-villen/tfg_ws/install/pers_msgs/share/pers_msgs/hook/cmake_prefix_path.ps1'
+[2.178s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/giraff-azul2/tfg-villen/tfg_ws/install/pers_msgs/share/pers_msgs/hook/cmake_prefix_path.dsv'
+[2.179s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/giraff-azul2/tfg-villen/tfg_ws/install/pers_msgs/share/pers_msgs/hook/cmake_prefix_path.sh'
+[2.180s] Level 1:colcon.colcon_core.environment:checking '/home/giraff-azul2/tfg-villen/tfg_ws/install/pers_msgs/lib'
+[2.180s] Level 1:colcon.colcon_core.shell:create_environment_hook('pers_msgs', 'ld_library_path_lib')
+[2.182s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/giraff-azul2/tfg-villen/tfg_ws/install/pers_msgs/share/pers_msgs/hook/ld_library_path_lib.ps1'
+[2.183s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/giraff-azul2/tfg-villen/tfg_ws/install/pers_msgs/share/pers_msgs/hook/ld_library_path_lib.dsv'
+[2.183s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/giraff-azul2/tfg-villen/tfg_ws/install/pers_msgs/share/pers_msgs/hook/ld_library_path_lib.sh'
+[2.184s] Level 1:colcon.colcon_core.environment:checking '/home/giraff-azul2/tfg-villen/tfg_ws/install/pers_msgs/bin'
+[2.184s] Level 1:colcon.colcon_core.environment:checking '/home/giraff-azul2/tfg-villen/tfg_ws/install/pers_msgs/lib/pkgconfig/pers_msgs.pc'
+[2.184s] Level 1:colcon.colcon_core.environment:checking '/home/giraff-azul2/tfg-villen/tfg_ws/install/pers_msgs/lib/python3.10/site-packages'
+[2.184s] Level 1:colcon.colcon_core.shell:create_environment_hook('pers_msgs', 'pythonpath')
+[2.187s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/giraff-azul2/tfg-villen/tfg_ws/install/pers_msgs/share/pers_msgs/hook/pythonpath.ps1'
+[2.190s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/giraff-azul2/tfg-villen/tfg_ws/install/pers_msgs/share/pers_msgs/hook/pythonpath.dsv'
+[2.191s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/giraff-azul2/tfg-villen/tfg_ws/install/pers_msgs/share/pers_msgs/hook/pythonpath.sh'
+[2.196s] Level 1:colcon.colcon_core.environment:checking '/home/giraff-azul2/tfg-villen/tfg_ws/install/pers_msgs/bin'
+[2.199s] INFO:colcon.colcon_core.shell:Creating package script '/home/giraff-azul2/tfg-villen/tfg_ws/install/pers_msgs/share/pers_msgs/package.ps1'
+[2.201s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/giraff-azul2/tfg-villen/tfg_ws/install/pers_msgs/share/pers_msgs/package.dsv'
+[2.202s] INFO:colcon.colcon_core.shell:Creating package script '/home/giraff-azul2/tfg-villen/tfg_ws/install/pers_msgs/share/pers_msgs/package.sh'
+[2.205s] INFO:colcon.colcon_core.shell:Creating package script '/home/giraff-azul2/tfg-villen/tfg_ws/install/pers_msgs/share/pers_msgs/package.bash'
+[2.206s] INFO:colcon.colcon_core.shell:Creating package script '/home/giraff-azul2/tfg-villen/tfg_ws/install/pers_msgs/share/pers_msgs/package.zsh'
+[2.208s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/giraff-azul2/tfg-villen/tfg_ws/install/pers_msgs/share/colcon-core/packages/pers_msgs)
+[2.420s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(pers_msgs)
+[2.425s] Level 1:colcon.colcon_core.environment:checking '/home/giraff-azul2/tfg-villen/tfg_ws/install/pers_msgs' for CMake module files
+[2.426s] Level 1:colcon.colcon_core.environment:checking '/home/giraff-azul2/tfg-villen/tfg_ws/install/pers_msgs' for CMake config files
+[2.427s] Level 1:colcon.colcon_core.shell:create_environment_hook('pers_msgs', 'cmake_prefix_path')
+[2.432s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/giraff-azul2/tfg-villen/tfg_ws/install/pers_msgs/share/pers_msgs/hook/cmake_prefix_path.ps1'
+[2.434s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/giraff-azul2/tfg-villen/tfg_ws/install/pers_msgs/share/pers_msgs/hook/cmake_prefix_path.dsv'
+[2.434s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/giraff-azul2/tfg-villen/tfg_ws/install/pers_msgs/share/pers_msgs/hook/cmake_prefix_path.sh'
+[2.436s] Level 1:colcon.colcon_core.environment:checking '/home/giraff-azul2/tfg-villen/tfg_ws/install/pers_msgs/lib'
+[2.436s] Level 1:colcon.colcon_core.shell:create_environment_hook('pers_msgs', 'ld_library_path_lib')
+[2.439s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/giraff-azul2/tfg-villen/tfg_ws/install/pers_msgs/share/pers_msgs/hook/ld_library_path_lib.ps1'
+[2.440s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/giraff-azul2/tfg-villen/tfg_ws/install/pers_msgs/share/pers_msgs/hook/ld_library_path_lib.dsv'
+[2.441s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/giraff-azul2/tfg-villen/tfg_ws/install/pers_msgs/share/pers_msgs/hook/ld_library_path_lib.sh'
+[2.442s] Level 1:colcon.colcon_core.environment:checking '/home/giraff-azul2/tfg-villen/tfg_ws/install/pers_msgs/bin'
+[2.442s] Level 1:colcon.colcon_core.environment:checking '/home/giraff-azul2/tfg-villen/tfg_ws/install/pers_msgs/lib/pkgconfig/pers_msgs.pc'
+[2.442s] Level 1:colcon.colcon_core.environment:checking '/home/giraff-azul2/tfg-villen/tfg_ws/install/pers_msgs/lib/python3.10/site-packages'
+[2.443s] Level 1:colcon.colcon_core.shell:create_environment_hook('pers_msgs', 'pythonpath')
+[2.447s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/giraff-azul2/tfg-villen/tfg_ws/install/pers_msgs/share/pers_msgs/hook/pythonpath.ps1'
+[2.448s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/giraff-azul2/tfg-villen/tfg_ws/install/pers_msgs/share/pers_msgs/hook/pythonpath.dsv'
+[2.448s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/giraff-azul2/tfg-villen/tfg_ws/install/pers_msgs/share/pers_msgs/hook/pythonpath.sh'
+[2.449s] Level 1:colcon.colcon_core.environment:checking '/home/giraff-azul2/tfg-villen/tfg_ws/install/pers_msgs/bin'
+[2.452s] INFO:colcon.colcon_core.shell:Creating package script '/home/giraff-azul2/tfg-villen/tfg_ws/install/pers_msgs/share/pers_msgs/package.ps1'
+[2.453s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/giraff-azul2/tfg-villen/tfg_ws/install/pers_msgs/share/pers_msgs/package.dsv'
+[2.454s] INFO:colcon.colcon_core.shell:Creating package script '/home/giraff-azul2/tfg-villen/tfg_ws/install/pers_msgs/share/pers_msgs/package.sh'
+[2.455s] INFO:colcon.colcon_core.shell:Creating package script '/home/giraff-azul2/tfg-villen/tfg_ws/install/pers_msgs/share/pers_msgs/package.bash'
+[2.456s] INFO:colcon.colcon_core.shell:Creating package script '/home/giraff-azul2/tfg-villen/tfg_ws/install/pers_msgs/share/pers_msgs/package.zsh'
+[2.456s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/giraff-azul2/tfg-villen/tfg_ws/install/pers_msgs/share/colcon-core/packages/pers_msgs)
+[2.457s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/giraff-azul2/tfg-villen/tfg_ws/src/fer_pkg' with build type 'ament_python'
+[2.457s] Level 1:colcon.colcon_core.shell:create_environment_hook('fer_pkg', 'ament_prefix_path')
+[2.463s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/giraff-azul2/tfg-villen/tfg_ws/install/fer_pkg/share/fer_pkg/hook/ament_prefix_path.ps1'
+[2.464s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/giraff-azul2/tfg-villen/tfg_ws/install/fer_pkg/share/fer_pkg/hook/ament_prefix_path.dsv'
+[2.465s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/giraff-azul2/tfg-villen/tfg_ws/install/fer_pkg/share/fer_pkg/hook/ament_prefix_path.sh'
+[2.468s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.468s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.262s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/giraff-azul2/tfg-villen/tfg_ws/src/fer_pkg'
+[3.265s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.265s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.476s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/giraff-azul2/tfg-villen/tfg_ws/src/fer_pkg': AMENT_PREFIX_PATH=/home/giraff-azul2/tfg-villen/tfg_ws/install/pers_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/giraff-azul2/tfg-villen/tfg_ws/install/pers_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/giraff-azul2/tfg-villen/tfg_ws/install/pers_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/giraff-azul2/tfg-villen/tfg_ws/build/fer_pkg/prefix_override:/home/giraff-azul2/tfg-villen/tfg_ws/install/fer_pkg/lib/python3.10/site-packages:/home/giraff-azul2/tfg-villen/tfg_ws/install/pers_msgs/lib/python3.10/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(tfg_venv) /usr/bin/python3 setup.py egg_info --egg-base ../../build/fer_pkg build --build-base /home/giraff-azul2/tfg-villen/tfg_ws/build/fer_pkg/build install --record /home/giraff-azul2/tfg-villen/tfg_ws/build/fer_pkg/install.log --single-version-externally-managed
+[5.696s] Level 1:colcon.colcon_core.environment:checking '/home/giraff-azul2/tfg-villen/tfg_ws/install/fer_pkg' for CMake module files
+[5.697s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/giraff-azul2/tfg-villen/tfg_ws/src/fer_pkg' returned '0': AMENT_PREFIX_PATH=/home/giraff-azul2/tfg-villen/tfg_ws/install/pers_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/giraff-azul2/tfg-villen/tfg_ws/install/pers_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/giraff-azul2/tfg-villen/tfg_ws/install/pers_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/giraff-azul2/tfg-villen/tfg_ws/build/fer_pkg/prefix_override:/home/giraff-azul2/tfg-villen/tfg_ws/install/fer_pkg/lib/python3.10/site-packages:/home/giraff-azul2/tfg-villen/tfg_ws/install/pers_msgs/lib/python3.10/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(tfg_venv) /usr/bin/python3 setup.py egg_info --egg-base ../../build/fer_pkg build --build-base /home/giraff-azul2/tfg-villen/tfg_ws/build/fer_pkg/build install --record /home/giraff-azul2/tfg-villen/tfg_ws/build/fer_pkg/install.log --single-version-externally-managed
+[5.698s] Level 1:colcon.colcon_core.environment:checking '/home/giraff-azul2/tfg-villen/tfg_ws/install/fer_pkg' for CMake config files
+[5.700s] Level 1:colcon.colcon_core.environment:checking '/home/giraff-azul2/tfg-villen/tfg_ws/install/fer_pkg/lib'
+[5.700s] Level 1:colcon.colcon_core.environment:checking '/home/giraff-azul2/tfg-villen/tfg_ws/install/fer_pkg/bin'
+[5.700s] Level 1:colcon.colcon_core.environment:checking '/home/giraff-azul2/tfg-villen/tfg_ws/install/fer_pkg/lib/pkgconfig/fer_pkg.pc'
+[5.701s] Level 1:colcon.colcon_core.environment:checking '/home/giraff-azul2/tfg-villen/tfg_ws/install/fer_pkg/lib/python3.10/site-packages'
+[5.701s] Level 1:colcon.colcon_core.shell:create_environment_hook('fer_pkg', 'pythonpath')
+[5.704s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/giraff-azul2/tfg-villen/tfg_ws/install/fer_pkg/share/fer_pkg/hook/pythonpath.ps1'
+[5.706s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/giraff-azul2/tfg-villen/tfg_ws/install/fer_pkg/share/fer_pkg/hook/pythonpath.dsv'
+[5.708s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/giraff-azul2/tfg-villen/tfg_ws/install/fer_pkg/share/fer_pkg/hook/pythonpath.sh'
+[5.714s] Level 1:colcon.colcon_core.environment:checking '/home/giraff-azul2/tfg-villen/tfg_ws/install/fer_pkg/bin'
+[5.716s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(fer_pkg)
+[5.722s] INFO:colcon.colcon_core.shell:Creating package script '/home/giraff-azul2/tfg-villen/tfg_ws/install/fer_pkg/share/fer_pkg/package.ps1'
+[5.726s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/giraff-azul2/tfg-villen/tfg_ws/install/fer_pkg/share/fer_pkg/package.dsv'
+[5.730s] INFO:colcon.colcon_core.shell:Creating package script '/home/giraff-azul2/tfg-villen/tfg_ws/install/fer_pkg/share/fer_pkg/package.sh'
+[5.731s] INFO:colcon.colcon_core.shell:Creating package script '/home/giraff-azul2/tfg-villen/tfg_ws/install/fer_pkg/share/fer_pkg/package.bash'
+[5.732s] INFO:colcon.colcon_core.shell:Creating package script '/home/giraff-azul2/tfg-villen/tfg_ws/install/fer_pkg/share/fer_pkg/package.zsh'
+[5.733s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/giraff-azul2/tfg-villen/tfg_ws/install/fer_pkg/share/colcon-core/packages/fer_pkg)
+[5.735s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[5.737s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[5.737s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[5.737s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[5.762s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[5.762s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[5.762s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[5.786s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[5.793s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/giraff-azul2/tfg-villen/tfg_ws/install/local_setup.ps1'
+[5.798s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/giraff-azul2/tfg-villen/tfg_ws/install/_local_setup_util_ps1.py'
+[5.802s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/giraff-azul2/tfg-villen/tfg_ws/install/setup.ps1'
+[5.810s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/giraff-azul2/tfg-villen/tfg_ws/install/local_setup.sh'
+[5.813s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/giraff-azul2/tfg-villen/tfg_ws/install/_local_setup_util_sh.py'
+[5.817s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/giraff-azul2/tfg-villen/tfg_ws/install/setup.sh'
+[5.830s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/giraff-azul2/tfg-villen/tfg_ws/install/local_setup.bash'
+[5.833s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/giraff-azul2/tfg-villen/tfg_ws/install/setup.bash'
+[5.842s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/giraff-azul2/tfg-villen/tfg_ws/install/local_setup.zsh'
+[5.845s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/giraff-azul2/tfg-villen/tfg_ws/install/setup.zsh'

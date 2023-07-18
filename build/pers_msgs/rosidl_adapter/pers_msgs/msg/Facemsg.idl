@@ -1,0 +1,25 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from pers_msgs/msg/Facemsg.msg
+// generated code does not contain a copyright notice
+
+#include "sensor_msgs/msg/Image.idl"
+
+module pers_msgs {
+  module msg {
+    struct Facemsg {
+      sequence<sensor_msgs::msg::Image> faces;
+
+      sensor_msgs::msg::Image frame;
+
+      sequence<int64> top;
+
+      sequence<int64> right;
+
+      sequence<int64> bottom;
+
+      sequence<int64> left;
+
+      sequence<string> names;
+    };
+  };
+};
