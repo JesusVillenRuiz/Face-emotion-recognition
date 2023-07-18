@@ -1,6 +1,0 @@
-[console_scripts]
-Emotion_detector_node = fer_pkg.Emotion_detector_node:main
-Face_detector_node = fer_pkg.Face_detector_node:main
-TelegramNode = fer_pkg.TelegramNode:main
-my_node = fer_pkg.my_node:main
-

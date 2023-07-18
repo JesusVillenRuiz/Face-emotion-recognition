@@ -1,1 +1,0 @@
-/home/giraff-azul2/tfg-villen/tfg_ws/src/pers_msgs/msg/Caramsg.msg

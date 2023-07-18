@@ -1,7 +1,0 @@
-{
-  "package_name": "pers_msgs",
-  "non_idl_tuples": [
-    "/home/giraff-azul2/tfg-villen/tfg_ws/src/pers_msgs:msg/Facemsg.msg",
-    "/home/giraff-azul2/tfg-villen/tfg_ws/src/pers_msgs:msg/NewUsermsg.msg"
-  ]
-}
