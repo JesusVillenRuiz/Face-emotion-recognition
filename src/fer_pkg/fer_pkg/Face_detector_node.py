@@ -71,13 +71,15 @@ class Face_detector_node(Node):
         package_path = os.path.dirname(os.path.abspath(__file__))
         
         # Load a sample picture and learn how to recognize it.z
-        person1_path = os.path.join(package_path, 'Yo.jpg')
+        '''person1_path = os.path.join(package_path, 'Yo.jpg')
         person1_image = face_recognition.load_image_file(person1_path)
-        person1_face_encoding = face_recognition.face_encodings(person1_image)[0]
+        person1_face_encoding = face_recognition.face_encodings(person1_image)[0]'''
         
         # Create arrays of known face encodings and their names
-        self.known_face_encodings = [person1_face_encoding]
-        self.known_face_names = ["Jesús Villén"]
+        #self.known_face_encodings = [person1_face_encoding]
+        #self.known_face_names = ["Jesús Villén"]
+        self.known_face_encodings = []
+        self.known_face_names = []
 
         # Variables to store the face detection results.
         self.face_locations = []
