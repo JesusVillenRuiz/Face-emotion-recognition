@@ -12,7 +12,7 @@ import os
 import threading
 import cv2
 
-TELEGRAM_TOKEN = '6297274661:AAENxh-QOD5rfevbHUe1gWhqGmljzeJMCbY'
+TELEGRAM_TOKEN = 'YOUR TOKEN'
 CHAT_ID = 761096513
 bot = telebot.TeleBot(TELEGRAM_TOKEN)
 
