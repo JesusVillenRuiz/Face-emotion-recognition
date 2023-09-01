@@ -15,7 +15,7 @@ import PIL
 from PIL import ImageFont, ImageDraw
 import telebot
 
-TELEGRAM_TOKEN = '6297274661:AAENxh-QOD5rfevbHUe1gWhqGmljzeJMCbY'
+TELEGRAM_TOKEN = 'YOUR TOKEN'
 CHAT_ID = 761096513
 
 def is_image_blurry(image):
